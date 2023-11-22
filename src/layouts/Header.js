@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 
-import Logo from './../assets/images/logo.png';
-import LogoWhite from './../assets/images/logo-white.png';
+// import Logo from './../assets/images/logo.png';
+import Logo from './../assets/images/UP1Logo.png';
+import LogoWhite from './../assets/images/UP1Logo.png';
 
 function Header(){
 
@@ -48,9 +49,13 @@ function Header(){
                                 </div>                            
                                 <ul className="nav navbar-nav navbar">
                                     <li><NavLink to={"/"}>Home</NavLink></li>
-                                    <li><NavLink to={"/about-us"}>About Us</NavLink></li>
-                                    <li><NavLink to={"/pricing"}>Pricing</NavLink></li>
-                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
+                                    <li><NavLink to={"/about-us"}>About</NavLink></li>
+                                    {/* <li><NavLink to={"/pricing"}>Pricing</NavLink></li> */}
+                                    <li><NavLink to={"/pricing"}>Features</NavLink></li>
+                                    <li><NavLink to={"/pricing"}>Protocol</NavLink></li>
+                                    <li><NavLink to={"/pricing"}>Incentives</NavLink></li>
+                                    <li><NavLink to={"/pricing"}>Community</NavLink></li>
+                                    {/* <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenu(!showMenu)}
                                       
                                     ><Link to={"#"}>Blog</Link>
@@ -59,8 +64,8 @@ function Header(){
                                             <li><NavLink to={"/blog-grid"}>Blog grid</NavLink></li>
                                             <li><NavLink to={"/blog-details"}>Blog details</NavLink></li>
                                         </ul>
-                                    </li>
-                                    <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>
+                                    </li> */}
+                                    {/* <li><NavLink to={"/contact-us"}>Contact</NavLink></li> */}
                                 </ul>                               
                             
                                 <div className="header-bottom">

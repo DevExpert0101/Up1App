@@ -10318,7 +10318,7 @@ section {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  width: 215px;
+  width: 40px;
   height: var(--header-height);
   position: relative;
   z-index: 9; }
@@ -10330,7 +10330,7 @@ section {
     letter-spacing: 20px; }
   @media only screen and (max-width: 575px) {
     .logo-header {
-      width: 185px; } }
+      width: 40px; } }
 
 .top-bar {
   background-color: var(--primary);
@@ -10544,7 +10544,7 @@ section {
         padding: 20px 20px;
         float: none;
         height: auto;
-        width: 240px; }
+        width: 40px; }
         .header-nav .logo-header img {
           height: 50px; }
         .header-nav .logo-header .logo-dark {
