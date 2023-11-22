@@ -52,7 +52,7 @@ const PriceBlog = () =>{
         <> 
             {pricingBlog.map((data, index)=>(
                 <div className="col-xl-4 col-lg-6 col-md-6 m-b30" key={index}>
-                    <div className={`pricingtable-wrapper box-hover style-1 ${index == hovered ? "active" : ""}`}
+                    <div className={`pricingtable-wrapper box-hover style-1 ${index === hovered ? "active" : ""}`}
                         onMouseEnter={() => {setHovered(index)}}                            
                     >
                         <div className="pricingtable-inner">
