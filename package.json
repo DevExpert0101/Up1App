@@ -1,6 +1,5 @@
 {
   "name": "y",
-  "homepage": "https://stately-hummingbird-c10702.netlify.app/frontend/react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
