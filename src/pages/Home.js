@@ -58,8 +58,8 @@ function Home(){
 					<img className="bg-shape4" src={Shape3} alt="" />
 				</div>
 				<div className="clearfix bg-primary-light">
-					<div className="container">
-						<div className="currancy-wrapper">
+					<div className="container" style={{marginLeft: '0px', marginRight: '0px'}}>
+						<div className="currancy-wrapper" style={{width: '100vw'}}>
 							<div className="row justify-content-center">
 								<BannerCard />
 							</div>

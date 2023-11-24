@@ -55,18 +55,18 @@ function BannerCard(){
     return(
         <>
             {cardData.map((data, index)=>(
-                <div className="col-lg-4 col-md-6 m-b30 wow fadeInUp"  style={ {minWidth: '900px'} }data-wow-delay="0.2s" key={index}>
+                <div className="col-lg-6 col-md-6 m-b30 wow fadeInUp"  style={ {maxWidth: '600px'} }data-wow-delay="0.2s" key={index}>
                     <div className="icon-bx-wraper style-1 box-hover">
                         <div className="icon-media">
                             <img className='mt-3' src={data.image} alt="" />
                             <div className="icon-info">
-                                <h2 className="title fs-2" >{data.title}</h2>
-                                <div className='d-flex' style={{gap: '10px'}}>
+                                <h2 className="title fs-4" >{data.title}</h2>
+                                <div className='d-flex flex-xxl-row flex-xl-row flex-md-column flex-sm-column' style={{gap: '10px'}}>
                                     <div>
                                         <p>Market Creator</p>
-                                        <p className='fs-6 fw-medium' style={{color: 'black', width: '400px'}}>Predict whether Bitcoin will surpass $70,000 by December 2023.</p>
+                                        <p className='fs-8 fw-medium' style={{color: 'black', width: '200px'}}>Predict whether Bitcoin will surpass $70,000 by December 2023.</p>
                                     </div>
-                                    <div className='fs-9'>
+                                    <div style={{fontSize: '13px'}}>
                                         <p>Pool: 256,321 UP1</p>
                                         <p>Total Wagers: 1444</p>
                                         <p>Number of participants: 777</p>
