@@ -10,6 +10,8 @@ import Icon13 from './../../assets/images/icons/icon13.svg';
 import pic1 from './../../assets/images/about/pic1.jpg';
 import support1 from './../../assets/images/icons/support1.png';
 
+
+
 const cardData = [
     {image: Icon9, title:'Competitive Pricing'},
     {image: Icon10, title:'Support'},

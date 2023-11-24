@@ -11,6 +11,7 @@ import BlogList from './BlogList';
 import BlogGrid from './BlogGrid';
 import BlogDetails from './BlogDetails';
 import ContactUs from './ContactUs';
+import Features from './Features';
 
 function Index(){
 	return(
@@ -21,6 +22,7 @@ function Index(){
 						<Route path='/' exact element={<Home />} />
 						<Route path='/about-us' exact element={<AboutUs />} />
 						<Route path='/pricing' exact element={<Pricing />} />
+						<Route path='/features' exact element={<Features />} />
 						<Route path='/blog-list' exact element={<BlogList />} />
 						<Route path='/blog-grid' exact element={<BlogGrid />} />
 						<Route path='/blog-details' exact element={<BlogDetails />} />

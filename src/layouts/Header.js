@@ -50,12 +50,12 @@ function Header(){
                                 <ul className="nav navbar-nav navbar">
                                     <li><NavLink to={"/"}>Home</NavLink></li>
                                     <li><NavLink to={"/about-us"}>About</NavLink></li>
-                                    {/* <li><NavLink to={"/pricing"}>Pricing</NavLink></li> */}
-                                    <li><NavLink to={"/pricing"}>Features</NavLink></li>
-                                    <li><NavLink to={"/pricing"}>Protocol</NavLink></li>
-                                    <li><NavLink to={"/pricing"}>Incentives</NavLink></li>
-                                    <li><NavLink to={"/pricing"}>Community</NavLink></li>
-                                    {/* <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
+                                    <li><NavLink to={"/pricing"}>Pricing</NavLink></li>
+                                    <li><NavLink to={"/features"}>Features</NavLink></li>
+                                    <li><NavLink to={"/protocol"}>Protocol</NavLink></li>
+                                    <li><NavLink to={"/intentives"}>Incentives</NavLink></li>
+                                    <li><NavLink to={"/community"}>Community</NavLink></li>
+                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenu(!showMenu)}
                                       
                                     ><Link to={"#"}>Blog</Link>
@@ -64,8 +64,8 @@ function Header(){
                                             <li><NavLink to={"/blog-grid"}>Blog grid</NavLink></li>
                                             <li><NavLink to={"/blog-details"}>Blog details</NavLink></li>
                                         </ul>
-                                    </li> */}
-                                    {/* <li><NavLink to={"/contact-us"}>Contact</NavLink></li> */}
+                                    </li>
+                                    <li><NavLink to={"/contact-us"}>Contact</NavLink></li>
                                 </ul>                               
                             
                                 <div className="header-bottom">
