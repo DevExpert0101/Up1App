@@ -55,7 +55,7 @@ function Header(){
                                     <li><NavLink to={"/protocol"}>Protocol</NavLink></li>
                                     <li><NavLink to={"/intentives"}>Incentives</NavLink></li>
                                     <li><NavLink to={"/community"}>Community</NavLink></li>
-                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
+                                    {/* <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenu(!showMenu)}
                                       
                                     ><Link to={"#"}>Blog</Link>
@@ -65,7 +65,7 @@ function Header(){
                                             <li><NavLink to={"/blog-details"}>Blog details</NavLink></li>
                                         </ul>
                                     </li>
-                                    <li><NavLink to={"/contact-us"}>Contact</NavLink></li>
+                                    <li><NavLink to={"/contact-us"}>Contact</NavLink></li> */}
                                 </ul>                               
                             
                                 <div className="header-bottom">
