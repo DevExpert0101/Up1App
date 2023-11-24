@@ -55,16 +55,19 @@ function BannerCard(){
     return(
         <>
             {cardData.map((data, index)=>(
-                <div className="col-lg-6 col-md-6 m-b30 wow fadeInUp"  style={ {maxWidth: '600px'} }data-wow-delay="0.2s" key={index}>
+                <div className="col-xl-6 col-lg-6 col-md-12 m-b30 wow fadeInUp"  style={ {maxWidth: '600px'} }data-wow-delay="0.2s" key={index}>
                     <div className="icon-bx-wraper style-1 box-hover">
                         <div className="icon-media">
                             <img className='mt-3' src={data.image} alt="" />
                             <div className="icon-info">
-                                <h2 className="title fs-4" >{data.title}</h2>
-                                <div className='d-flex flex-xxl-row flex-xl-row flex-md-column flex-sm-column' style={{gap: '10px'}}>
+                                <div style={{height: "100px", display: "flex" , flexDirection: "column", justifyContent: "center"}}>
+
+                                    <h2 className="title fs-4" >{data.title}</h2>
+                                </div>
+                                <div className='d-flex flex-lg-col flex-md-column flex-sm-column flex-column' style={{gap: '10px'}}>
                                     <div>
                                         <p>Market Creator</p>
-                                        <p className='fs-8 fw-medium' style={{color: 'black', width: '200px'}}>Predict whether Bitcoin will surpass $70,000 by December 2023.</p>
+                                        <p className='fs-8 fw-medium' style={{color: 'black'}}>Predict whether Bitcoin will surpass $70,000 by December 2023.</p>
                                     </div>
                                     <div style={{fontSize: '13px'}}>
                                         <p>Pool: 256,321 UP1</p>
@@ -91,15 +94,31 @@ function BannerCard(){
                                 </div>
                             </div>
                             <div className='mt-4 mb-1' style={{color: 'black'}}>More Predefined Wagers</div>
-                            <div className='d-flex' style={{gap: '10px'}}>
-                                <div style={{backgroundColor: data.color, width: '15%', textAlign: 'center', color: 'black'}}>37,568</div>
-                                <div style={{backgroundColor: data.color, width: '15%', textAlign: 'center', color: 'black'}}>48,756</div>
-                                <div style={{backgroundColor: data.color, width: '15%', textAlign: 'center', color: 'black'}}>56,000</div>
-                                <div style={{backgroundColor: data.color, width: '15%', textAlign: 'center', color: 'black'}}>65,000</div>
-                                <div style={{backgroundColor: data.color, width: '15%', textAlign: 'center', color: 'black'}}>75,000</div>
-                                <div style={{backgroundColor: data.color, width: '15%', textAlign: 'center', color: 'black'}}>95,000</div>
-                                <div style={{backgroundColor: data.color, width: '15%', textAlign: 'center', color: 'black'}}>101,454</div>
-                                <div style={{backgroundColor: data.color, width: '15%', textAlign: 'center', color: 'black'}}>108,654</div>
+                            <div className='row text-center' >
+                                <div className='col-3 p-2' >
+                                    <div style={{backgroundColor: data.color,}}>37,568</div>
+                                </div>
+                                <div className='col-3 p-2' >
+                                    <div style={{backgroundColor: data.color}}>48,756</div>
+                                </div>
+                                <div className='col-3 p-2' >
+                                    <div style={{backgroundColor: data.color}}>56,000</div>
+                                </div>
+                                <div className='col-3 p-2' >
+                                    <div style={{backgroundColor: data.color}}>65,000</div>
+                                </div>
+                                <div className='col-3 p-2' >
+                                    <div style={{backgroundColor: data.color}}>75,000</div>
+                                </div>
+                                <div className='col-3 p-2' >
+                                    <div style={{backgroundColor: data.color}}>95,000</div>
+                                </div>
+                                <div className='col-3 p-2' >
+                                    <div style={{backgroundColor: data.color}}>101,454</div>
+                                </div>
+                                <div className='col-3 p-2' >
+                                    <div style={{backgroundColor: data.color}}>108,654</div>
+                                </div>
                             </div>
                         </div>
                     </div>
