@@ -5,6 +5,7 @@ import coin3 from './../../assets/images/coins/coin3.png';
 import coin4 from './../../assets/images/coins/coin4.png';
 import superbowl from './../../assets/images/card/superbowl.png';
 import vote from './../../assets/images/card/vote.png';
+import tesla from './../../assets/images/card/tesla.png';
 import LCDclock from './LCDclodk';
 
 import { Card, Button, Badge } from 'react-bootstrap';
@@ -47,8 +48,8 @@ const cardData = [
         participants: 2322, market: 'Sports', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#b3a3ff'},
     {image: coin4, title:'Predict Future of Bitcoin', subtitle: 'Market Creator',predict: 'Predict whether Bitcoin will surpass $70,000 by December 2023', pool:'256,321', total: 1444, 
         participants: 777, market: 'Cryotpcurrency', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#b3a3ff'},
-    {image: coin4, title:'Predict Future of Bitcoin', subtitle: 'Market Creator',predict: 'Predict whether Bitcoin will surpass $70,000 by December 2023', pool:'256,321', total: 1444, 
-        participants: 777, market: 'Cryotpcurrency', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#b3a3ff'},
+    {image: tesla, title:'Tesla Stock Price Prediction', subtitle: 'Market Creator',predict: 'Predict the closing price of Tesla stock by the end of the week.', pool:'256,321', total: 1444, 
+        participants: 777, market: 'Finance & Stocks', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#b3a3ff'},
     {image: vote, title:'Presidential Election Prediction', subtitle: 'Market Creator', predict: 'Predict the winning candidate fo the 2024 Presidential Election', pool:'754,333', total: 6432, 
         participants: 5323, market: 'Global Events', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#b3a3ff'},
     
@@ -69,7 +70,11 @@ function BannerCard(){
                                 </div>
                                 <div className='d-flex flex-lg-col flex-md-column flex-sm-column flex-column' style={{gap: '10px'}}>
                                     <div>
-                                        <p>Market Creator</p>
+                                        <div className='d-flex align-items-center gap-2 mb-3'>
+
+                                        <span>Market Creator</span>
+                                        <i class="fa fa-user-circle fs-4"></i>
+                                        </div>
                                         <p className='fs-8 fw-medium' style={{color: 'black'}}>{data.predict}</p>
                                     </div>
                                     <div style={{fontSize: '13px'}}>
