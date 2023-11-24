@@ -43,11 +43,11 @@ const cardData = [
     // {image: coin4, title:'Bitcoin', subtitle:'BTC', price:'16,048.40', percent:'-1.26'},
     // {image: coin3, title:'Ethereum', subtitle:'ETH', price:'1,122.44', percent:'-1.55'},
     // {image: coin1, title:'Tether', subtitle:'USDT', price:'1.00', percent:'0.0099'},
-    {image: superbowl, title:'Super Bowl Winner Prediction', subtitle: 'Market Creator', pool:'353,533', total: 2854, 
+    {image: superbowl, title:'Super Bowl Winner Prediction', subtitle: 'Market Creator', predict: 'Predict the winner of the upcoming NFL Super Bowl', pool:'353,533', total: 2854, 
         participants: 2322, market: 'Sports', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#b3a3ff'},
-    {image: coin4, title:'Predict Future of Bitcoin', subtitle: 'Market Creator', pool:'256,321', total: 1444, 
+    {image: coin4, title:'Predict Future of Bitcoin', subtitle: 'Market Creator',predict: 'Predict whether Bitcoin will surpass $70,000 by December 2023', pool:'256,321', total: 1444, 
         participants: 777, market: 'Cryotpcurrency', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: 'orange'},
-    {image: vote, title:'Presidential Election Prediction', subtitle: 'Market Creator', pool:'754,333', total: 6432, 
+    {image: vote, title:'Presidential Election Prediction', subtitle: 'Market Creator', predict: 'Predict the winning candidate fo the 2024 Presidential Election', pool:'754,333', total: 6432, 
         participants: 5323, market: 'Global Events', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#b3a3ff'}
 ];
 
@@ -67,13 +67,13 @@ function BannerCard(){
                                 <div className='d-flex flex-lg-col flex-md-column flex-sm-column flex-column' style={{gap: '10px'}}>
                                     <div>
                                         <p>Market Creator</p>
-                                        <p className='fs-8 fw-medium' style={{color: 'black'}}>Predict whether Bitcoin will surpass $70,000 by December 2023.</p>
+                                        <p className='fs-8 fw-medium' style={{color: 'black'}}>{data.predict}</p>
                                     </div>
                                     <div style={{fontSize: '13px'}}>
-                                        <p>Pool: 256,321 UP1</p>
-                                        <p>Total Wagers: 1444</p>
-                                        <p>Number of participants: 777</p>
-                                        <p>Market: Cryptocurrency</p>
+                                        <p>Pool: {data.pool} UP1</p>
+                                        <p>Total Wagers: {data.total}</p>
+                                        <p>Number of participants: {data.participants}</p>
+                                        <p>Market: {data.market}</p>
                                     </div>
                                 </div>
                             </div>
@@ -82,14 +82,14 @@ function BannerCard(){
                             <div style={{width: '100%', height: '5px', backgroundColor: 'black'}} className='mb-3'></div>
                             <div className='d-flex justify-content-between align-items-center'>
                                 <div className='d-flex gap-2'>
-                                    <div className='py-1 px-2 d-flex align-items-center gap-2' style={{cursor: 'pointer', border: '3px solid black', borderRadius: '20px', textAlign: 'center', color: 'black'}}>
+                                    <div className='py-1 px-2 d-flex align-items-center gap-2' style={{cursor: 'pointer', border: '3px solid black', borderRadius: '20px', textAlign: 'center', color: data.color}}>
                                         Set Wager
                                         <i class="fa fa-chevron-right" aria-hidden="true" />
                                     </div>
-                                    <LCDclock />
+                                    <LCDclock color={data.color}/>
                                 </div>
-                                <div className="text-center px-4 py-1 rounded-2 d-flex align-items-center gap-1" style={{backgroundColor: 'rgba(30, 137, 228)', color: 'white', cursor: 'pointer'}}>
-                                    <i class="fa fa-share" aria-hidden="true" />
+                                <div className="text-center px-4 py-1 rounded-2 d-flex align-items-center gap-1" style={{backgroundColor: data.color, cursor: 'pointer'}}>
+                                    <i class="fa fa-share" aria-hidden="true"  />
                                     Share
                                 </div>
                             </div>
