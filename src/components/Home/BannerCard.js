@@ -46,9 +46,9 @@ const cardData = [
     {image: superbowl, title:'Super Bowl Winner Prediction', subtitle: 'Market Creator', predict: 'Predict the winner of the upcoming NFL Super Bowl', pool:'353,533', total: 2854, 
         participants: 2322, market: 'Sports', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#b3a3ff'},
     {image: coin4, title:'Predict Future of Bitcoin', subtitle: 'Market Creator',predict: 'Predict whether Bitcoin will surpass $70,000 by December 2023', pool:'256,321', total: 1444, 
-        participants: 777, market: 'Cryotpcurrency', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: 'orange'},
+        participants: 777, market: 'Cryotpcurrency', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#362465'},
     {image: coin4, title:'Predict Future of Bitcoin', subtitle: 'Market Creator',predict: 'Predict whether Bitcoin will surpass $70,000 by December 2023', pool:'256,321', total: 1444, 
-        participants: 777, market: 'Cryotpcurrency', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: 'orange'},
+        participants: 777, market: 'Cryotpcurrency', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#362465'},
     {image: vote, title:'Presidential Election Prediction', subtitle: 'Market Creator', predict: 'Predict the winning candidate fo the 2024 Presidential Election', pool:'754,333', total: 6432, 
         participants: 5323, market: 'Global Events', predefined: ['37,568', '48,756', '65,000', '75,000', '95,000', '101,454', '108,654'], color: '#b3a3ff'},
     
