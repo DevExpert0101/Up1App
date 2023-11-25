@@ -25,12 +25,31 @@ import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 import videobox from "./../assets/images/about/videobx.png";
 import ModalVideo from "react-modal-video";
 
-
 const trustBlog = [
-  { image: wallet, title: "Decentralization Unleashed" , description: "Harnessing the power of blockchain technology, ensuring decentralization, transparency, and security in every prediction."},
-  { image: friend, title: "Accurate Community-Powered Insights " , description: "UP1 isn't just about making predictions; it's about leveraging collective wisdom. Join a vibrant community of visionaries, where insightful predictions drive market outcomes."},
-  { image: participation, title: "Incentivized Participation", description: "UP1 token rewards accuracy, engagement, and liquidity provision, ensuring that every action you take within the platform contributes to your success."},
-  { image: friend, title: "Transparent and Fair Outcomes", description: "With our blockchain-based infrastructure, every prediction outcome is transparently settled, eliminating any room for manipulation or bias. Trust in fair and accurate results."}
+  {
+    image: wallet,
+    title: "Decentralization Unleashed",
+    description:
+      "Harnessing the power of blockchain technology, ensuring decentralization, transparency, and security in every prediction.",
+  },
+  {
+    image: friend,
+    title: "Accurate Community-Powered Insights ",
+    description:
+      "UP1 isn't just about making predictions; it's about leveraging collective wisdom. Join a vibrant community of visionaries, where insightful predictions drive market outcomes.",
+  },
+  {
+    image: participation,
+    title: "Incentivized Participation",
+    description:
+      "UP1 token rewards accuracy, engagement, and liquidity provision, ensuring that every action you take within the platform contributes to your success.",
+  },
+  {
+    image: friend,
+    title: "Transparent and Fair Outcomes",
+    description:
+      "With our blockchain-based infrastructure, every prediction outcome is transparently settled, eliminating any room for manipulation or bias. Trust in fair and accurate results.",
+  },
 ];
 
 function Home() {
@@ -90,9 +109,7 @@ function Home() {
           <div className="container wow fadeInUp" data-wow-delay="0.4s">
             <div className="section-head text-center">
               <h2 className="title pt-5">How it works?</h2>
-              <p>
-			  	Predict the Future, Elevate Your Insights with UP1.
-              </p>
+              <p>Predict the Future, Elevate Your Insights with UP1.</p>
             </div>
             <div className="video-bx style-1">
               <div className="video-media">
@@ -126,9 +143,12 @@ function Home() {
           <div className="container">
             <div className="content-inner-1">
               <div className="section-head text-center">
-                <h2 className="title">Why UP1 is Revolutionizing Predictions?</h2>
+                <h2 className="title">
+                  Why UP1 is Revolutionizing Predictions?
+                </h2>
                 <p>
-				Embrace the Future of Forecasting and Decentralized Prediction Markets
+                  Embrace the Future of Forecasting and Decentralized
+                  Prediction Markets
                 </p>
               </div>
               <div className="row">
@@ -139,10 +159,13 @@ function Home() {
                         <img src={data.image} alt="" />
                       </div>
                       <div className="icon-content">
-                        <h4 className="title d-flex flex-column justify-content-center" style={{ height: "60px"}}>{data.title}</h4>
-                        <p style={{ height: "90px"}}>
-                          {data.description}
-                        </p>
+                        <h4
+                          className="title d-flex flex-column justify-content-center"
+                          style={{ height: "60px" }}
+                        >
+                          {data.title}
+                        </h4>
+                        <p style={{ height: "90px" }}>{data.description}</p>
                         <Link
                           className="btn btn-primary btn-gradient btn-shadow"
                           to={"/about-us"}
@@ -159,13 +182,11 @@ function Home() {
           <div className="container">
             <div className="form-wrapper-box style-1 text-center">
               <div className="section-head ">
-                <h4 className="title m-t0">User Journey Section</h4>
-                <p>
-                  Fill out the below form and we will contact you via email &
-                  details
-                </p>
+                <div className="section-head text-center">
+                  <h2 className="title">User Journey</h2>
+                </div>
               </div>
-              <form className="dz-form" onSubmit={(e) => formDetails(e)}>
+              {/* <form className="dz-form" onSubmit={(e) => formDetails(e)}>
                 <div className="form-wrapper">
                   <div className="flex-1">
                     <div className="row g-3">
@@ -233,7 +254,35 @@ function Home() {
                     Get Strated
                   </button>
                 </div>
-              </form>
+              </form> */}
+              <div className="row sp60 d-flex ">
+                <div className="col-xl-4 col-md-6">
+                  <div className="icon-bx-wraper style-3 text-center d-flex flex-column justify-content-center">
+                    <h4>User Jorney Pathway</h4>
+                    <p>
+                      Step-by-step guide or interactive path showcasing how to
+                      start predicting on UP1
+                    </p>
+                  </div>
+                </div>
+				<div className="col-xl-4 col-md-6">
+                  <div className="icon-bx-wraper style-3 text-center d-flex flex-column justify-content-center">
+                    <h4>Visual Representations</h4>
+                    <span>
+					Screenshots or visuals illustrating the simple process of market creation and wager placement
+                    </span>
+                  </div>
+                </div>
+				<div className="col-xl-4 col-md-6">
+                  <div className="icon-bx-wraper style-3 text-center d-flex flex-column justify-content-center">
+                    <h4>Clear Call-to-Action</h4>
+                    <p>
+					Begin Your Prediction Journey Today
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
             </div>
           </div>
           <img className="bg-shape1" src={Shape1} alt="" />
@@ -242,8 +291,12 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">
-			  Explore  
-                <span className="text-primary"> Markets and Predictions </span> Tailored to Your Interests
+                Explore
+                <span className="text-primary">
+                  {" "}
+                  Markets and Predictions{" "}
+                </span>{" "}
+                Tailored to Your Interests
               </h2>
             </div>
             <div className="row sp60">
@@ -280,11 +333,12 @@ function Home() {
                   </div>
                   <div className="dz-info">
                     {/* <h2 className="dz-title"> */}
-                      <Link to={"/blog-details"} className="text-white fs-5 " >
-						<span>
-						  Blockchain and Beyond - UP1's Impact on Revolutionizing Prediction Markets
-						</span>
-                      </Link>
+                    <Link to={"/blog-details"} className="text-white fs-5 ">
+                      <span>
+                        Blockchain and Beyond - UP1's Impact on Revolutionizing
+                        Prediction Markets
+                      </span>
+                    </Link>
                     {/* </h2> */}
                     <div className="dz-meta mt-4">
                       <ul>
