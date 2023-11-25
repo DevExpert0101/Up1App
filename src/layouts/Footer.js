@@ -79,7 +79,7 @@ function Footer(){
                 </div>
                 <div className="footer-bottom text-center">
                     <div className="container">
-                        <span className="copyright-text">Copyright © 2023 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span>
+                        <span className="copyright-text">Copyright © 2023 <a href="https://dexignzone.com/" target="_blank">UP1 Protocol</a>. All rights reserved.</span>
                     </div>
                 </div>
             </footer>
