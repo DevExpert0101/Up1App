@@ -33,20 +33,21 @@ function Footer(){
                             </div>
                             <div className="col-xl-2 col-lg-4 col-md-4 col-sm-6" >
                                 <div className="widget widget_services">
-                                    <h4 className="widget-title">Other Links</h4>
+                                    <h4 className="widget-title">Protocol</h4>
                                     <ul>
-                                        <li><Link to={"/about-us"}>About Us</Link></li>
-                                        <li><Link to={"/pricing"}>Pricing Plan</Link></li>
-                                        <li><Link to={"/blog-list"}>Blog List</Link></li>
-                                        <li><Link to={"/blog-grid"}>Our Blogs</Link></li>
-                                        <li><Link to={"/contact-us"}>Contact Us</Link></li>
+                                        <li><Link to={"/about-us"}>About UP1</Link></li>
+                                        <li><Link to={"/pricing"}>Prediction Markets</Link></li>
+                                        <li><Link to={"/blog-list"}>Community Forum</Link></li>
+                                        <li><Link to={"/blog-grid"}>User Dashboard</Link></li>
+                                        <li><Link to={"/contact-us"}>Whitepaper</Link></li>
+                                        <li><Link to={"/contact-us"}>FAQ</Link></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-4 col-sm-6" >
-                                <div className="widget recent-posts-entry">
-                                    <h4 className="widget-title">Blog Posts</h4>
-                                    <div className="widget-post-bx">
+                                <div className="widget widget_services">
+                                    <h4 className="widget-title">Legal</h4>
+                                    {/* <div className="widget-post-bx">
                                         <div className="widget-post clearfix">
                                             <div className="dz-info">
                                                 <h6 className="title"><Link to={"/blog-details"}>What is cryptocurrency and how does it work.</Link></h6>
@@ -60,7 +61,15 @@ function Footer(){
                                                 <span className="post-date"> AUGUST 22, 2023</span>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
+                                    <ul>
+                                        <li><Link to={"/about-us"}>UP1 Token</Link></li>
+                                        <li><Link to={"/pricing"}>Terms of Service</Link></li>
+                                        <li><Link to={"/blog-list"}>Privacy Policy</Link></li>
+                                        <li><Link to={"/blog-grid"}>Disclamier</Link></li>
+                                        <li><Link to={"/contact-us"}>Cookie Policy</Link></li>
+                                        <li><Link to={"/contact-us"}>Security Policy</Link></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-4 col-sm-12" >
