@@ -261,15 +261,15 @@ function Home() {
               </form> */}
               <div className="row sp60 d-flex ">
                 <div className="col-xl-4 col-md-6">
-                  <div className="icon-bx-wraper style-3 text-center d-flex flex-column justify-content-center">
-                    <div className="icon-content">
+                  <div className="icon-bx-wraper style-5 text-center d-flex flex-column justify-content-center">
+                    <div className="icon-content-from">
                       <h4 className="title">Explore Diverse Markets</h4>
                       <p>Discover a World of Diverse Prediction Markets</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6">
-                  <div className="icon-bx-wraper style-3 text-center d-flex flex-column justify-content-center">
+                  <div className="icon-bx-wraper style-5 text-center d-flex flex-column justify-content-center">
                     <div className="icon-content">
                       <h4 className="title">Make Precise Predictions</h4>
                       <span>Leverage Insights to Make Accurate Forecasts</span>
@@ -277,7 +277,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6">
-                  <div className="icon-bx-wraper style-3 text-center d-flex flex-column justify-content-center">
+                  <div className="icon-bx-wraper style-5 text-center d-flex flex-column justify-content-center">
                     <div className="icon-content">
                       <h4 className="title">Reap Rewards of Accuracy</h4>
                       <p>Receive Incentives for Your Astute Predictions</p>
