@@ -15,6 +15,7 @@ import Shape3 from "./../assets/images/home-banner/shape3.png";
 import wallet from "./../assets/images/icons/wallet.svg";
 import friend from "./../assets/images/icons/friend.svg";
 import participation from "./../assets/images/icons/participation.svg";
+import outcome from "./../assets/images/icons/outcome.svg";
 
 import coin1 from "./../assets/images/coins/coin1.png";
 import coin3 from "./../assets/images/coins/coin3.png";
@@ -45,7 +46,7 @@ const trustBlog = [
       "UP1 token rewards accuracy, engagement, and liquidity provision, ensuring that every action you take within the platform contributes to your success.",
   },
   {
-    image: friend,
+    image: outcome,
     title: "Transparent and Fair Outcomes",
     description:
       "With our blockchain-based infrastructure, every prediction outcome is transparently settled, eliminating any room for manipulation or bias. Trust in fair and accurate results.",
