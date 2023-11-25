@@ -154,7 +154,7 @@ function BannerCard() {
                 <div className="icon-info">
                   <div
                     style={{
-                      height: "100px",
+                      height: "90px",
                       display: "flex",
                       flexDirection: "column",
                       justifyContent: "center",
@@ -165,8 +165,7 @@ function BannerCard() {
                     </h2>
                   </div>
                   <div
-                    className="d-flex flex-lg-col flex-md-column flex-sm-column flex-column"
-                    style={{ gap: "10px" }}
+                    className="d-flex flex-lg-col flex-md-column flex-sm-column flex-column"                    
                   >
                     <div className="d-flex align-items-center gap-2 mb-3">
                       <span className="fs-7">Market Creator</span>
@@ -177,24 +176,24 @@ function BannerCard() {
               </div>
               <div className="ms-5">
                 <div>
-                  <p className="fs-5 fw-medium" style={{ color: "white" , height: "100px"}}>
+                  <p className="fs-6 fw-medium" style={{ color: "white" }}>
                     {data.predict}
                   </p>
                 </div>
                 <div className="fs-7">
-                  <p>
+                  <p style={{ margin: "0px"}}>
                     <span>Pool: </span>{" "}
                     <span style={{ color: "white" }}>{data.pool} UP1</span>
                   </p>
-                  <p>
+                  <p style={{ margin: "0px"}}>
                     <span>Total Wagers: </span>{" "}
                     <span style={{ color: "white" }}>{data.total}</span>
                   </p>
-                  <p>
+                  <p style={{ margin: "0px"}}>
                     <span>Participants: </span>{" "}
                     <span style={{ color: "white" }}>{data.participants} </span>
                   </p>
-                  <p>
+                  <p style={{ margin: "0px"}}>
                     <span>Market: </span>{" "}
                     <span style={{ color: "white" }}>{data.market}</span>
                   </p>
