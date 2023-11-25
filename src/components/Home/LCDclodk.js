@@ -28,12 +28,12 @@ const LCDclock = ({color}) => {
 
   return (
     <div className="lcd-clock fs-4">
-        <div className='d-flex' style={{border: '2px solid black', borderRadius: '3px'}}>
+        <div className='d-flex' style={{border: '2px solid #b3a3ff', borderRadius: '3px'}}>
             <Digit value={formatTime(currentTime.minutes)[0]} color={color}/>
             <Digit value={formatTime(currentTime.minutes)[1]} color={color}/>
         </div>
-      <div className="separator">:</div>
-      <div className='d-flex' style={{border: '2px solid black', borderRadius: '3px'}}>
+      <div className="separator" style={{ color: "#b3a3ff"}}>:</div>
+      <div className='d-flex' style={{border: '2px solid #b3a3ff', borderRadius: '3px'}}>
         <Digit value={formatTime(currentTime.seconds)[0]} color={color}/>
         <Digit value={formatTime(currentTime.seconds)[1]} color={color}/>
       </div>
