@@ -14,6 +14,7 @@ import Shape1 from "./../assets/images/home-banner/shape1.png";
 import Shape3 from "./../assets/images/home-banner/shape3.png";
 import wallet from "./../assets/images/icons/wallet.svg";
 import friend from "./../assets/images/icons/friend.svg";
+import participation from "./../assets/images/icons/participation.svg";
 
 import coin1 from "./../assets/images/coins/coin1.png";
 import coin3 from "./../assets/images/coins/coin3.png";
@@ -24,9 +25,12 @@ import avatar3 from "./../assets/images/avatar/avatar3.jpg";
 import videobox from "./../assets/images/about/videobx.png";
 import ModalVideo from "react-modal-video";
 
+
 const trustBlog = [
-  { image: wallet, title: "Buy Cryptocurrency with cash" },
-  { image: friend, title: "Cryptocurrency Consultancy" },
+  { image: wallet, title: "Decentralization Unleashed" , description: "Harnessing the power of blockchain technology, ensuring decentralization, transparency, and security in every prediction."},
+  { image: friend, title: "Accurate Community-Powered Insights " , description: "UP1 isn't just about making predictions; it's about leveraging collective wisdom. Join a vibrant community of visionaries, where insightful predictions drive market outcomes."},
+  { image: participation, title: "Incentivized Participation", description: "UP1 token rewards accuracy, engagement, and liquidity provision, ensuring that every action you take within the platform contributes to your success."},
+  { image: friend, title: "Transparent and Fair Outcomes", description: "With our blockchain-based infrastructure, every prediction outcome is transparently settled, eliminating any room for manipulation or bias. Trust in fair and accurate results."}
 ];
 
 function Home() {
@@ -122,10 +126,9 @@ function Home() {
           <div className="container">
             <div className="content-inner-1">
               <div className="section-head text-center">
-                <h2 className="title">Why Trust Us?</h2>
+                <h2 className="title">Why UP1 is Revolutionizing Predictions?</h2>
                 <p>
-                  Trust comes from experience. Many of the pleased customers may
-                  function as a guide for you.
+				Embrace the Future of Forecasting and Decentralized Prediction Markets
                 </p>
               </div>
               <div className="row">
@@ -136,11 +139,9 @@ function Home() {
                         <img src={data.image} alt="" />
                       </div>
                       <div className="icon-content">
-                        <h4 className="title">{data.title}</h4>
-                        <p>
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an unknown printer
-                          took a galley.
+                        <h4 className="title d-flex flex-column justify-content-center" style={{ height: "60px"}}>{data.title}</h4>
+                        <p style={{ height: "90px"}}>
+                          {data.description}
                         </p>
                         <Link
                           className="btn btn-primary btn-gradient btn-shadow"
@@ -241,8 +242,8 @@ function Home() {
           <div className="container">
             <div className="section-head text-center">
               <h2 className="title">
-                One-stop solution to buy and sell{" "}
-                <span className="text-primary"> cryptocurrency </span> with Cash
+			  Explore  
+                <span className="text-primary"> Markets and Predictions </span> Tailored to Your Interests
               </h2>
             </div>
             <div className="row sp60">
@@ -279,8 +280,8 @@ function Home() {
                   </div>
                   <div className="dz-info">
                     <h2 className="dz-title">
-                      <Link to={"/blog-details"} className="text-white">
-                        Directly support individuals Crypto
+                      <Link to={"/blog-details"} className="text-white fs-5">
+					  Blockchain and Beyond - UP1's Impact on Revolutionizing Prediction Markets
                       </Link>
                     </h2>
                     <div className="dz-meta">

@@ -7,8 +7,8 @@ import avatar1 from './../../assets/images/avatar/avatar1.jpg';
 import avatar2 from './../../assets/images/avatar/avatar2.jpg';
 
 const updatesBlog = [
-    {image1: blog1, image2: avatar1, title:'Five Things To Avoid In Cryptocurrency.'},
-    {image1: blog2, image2: avatar2 , title:'Things That Make You Love Cryptocurrency.'},
+    {image1: blog1, image2: avatar1, title:'Democratizing Predictions with UP1', description: "How UP1 Redefines Predictions Through Decentralization"},
+    {image1: blog2, image2: avatar2 , title:"Inside UP1's Thriving Prediction Ecosystem", description: "Exploring UP1's Vibrant Prediction Community"},
     
 ];
 
@@ -37,7 +37,7 @@ function RecentNews(){
                             </ul>
                         </div>
                         <h4 className="dz-title"><Link to={"/blog-details"}>{data.title}</Link></h4>
-                        <p className="m-b0">Nostrud tem exrcitation duis laboris nisi ut aliquip sed duis aute.</p>
+                        <p className="m-b0">{data.description}</p>
                     </div>
                 </div>
             ))}

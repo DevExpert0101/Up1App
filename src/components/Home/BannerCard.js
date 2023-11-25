@@ -160,7 +160,7 @@ function BannerCard() {
                       justifyContent: "center",
                     }}
                   >
-                    <h2 className="title fs-3" style={{ color: "white" }}>
+                    <h2 className="title fs-4" style={{ color: "white" }}>
                       {data.title}
                     </h2>
                   </div>
@@ -169,19 +169,19 @@ function BannerCard() {
                     style={{ gap: "10px" }}
                   >
                     <div className="d-flex align-items-center gap-2 mb-3">
-                      <span className="fs-6">Market Creator</span>
-                      <i class="fa fa-user-circle fs-4"></i>
+                      <span className="fs-7">Market Creator</span>
+                      <i class="fa fa-user-circle fs-5"></i>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="ms-4">
+              <div className="ms-5">
                 <div>
-                  <p className="fs-4 fw-medium" style={{ color: "white" }}>
+                  <p className="fs-5 fw-medium" style={{ color: "white" }}>
                     {data.predict}
                   </p>
                 </div>
-                <div className="fs-6">
+                <div className="fs-7">
                   <p>
                     <span>Pool: </span>{" "}
                     <span style={{ color: "white" }}>{data.pool} UP1</span>
@@ -245,38 +245,14 @@ function BannerCard() {
               </div>
               <div className="row text-center">
                 {data.predefined.map((item, ind) => (
-                  <div key={ind} className="col-3 p-2">
+                  <div key={ind} className="col-3 p-2 fs-8">
                     <div
                       style={{ backgroundColor: data.color, color: "#271456" }}
                     >
                       {item}
                     </div>
                   </div>
-                ))}
-                {/* <div className="col-3 p-2">
-                  <div style={{ backgroundColor: data.color }}>37,568</div>
-                </div>
-                <div className="col-3 p-2">
-                  <div style={{ backgroundColor: data.color }}>48,756</div>
-                </div>
-                <div className="col-3 p-2">
-                  <div style={{ backgroundColor: data.color }}>56,000</div>
-                </div>
-                <div className="col-3 p-2">
-                  <div style={{ backgroundColor: data.color }}>65,000</div>
-                </div>
-                <div className="col-3 p-2">
-                  <div style={{ backgroundColor: data.color }}>75,000</div>
-                </div>
-                <div className="col-3 p-2">
-                  <div style={{ backgroundColor: data.color }}>95,000</div>
-                </div>
-                <div className="col-3 p-2">
-                  <div style={{ backgroundColor: data.color }}>101,454</div>
-                </div>
-                <div className="col-3 p-2">
-                  <div style={{ backgroundColor: data.color }}>108,654</div>
-                </div> */}
+                ))}                
               </div>
             </div>
           </div>
