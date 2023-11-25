@@ -23,9 +23,9 @@ function Header(){
                 <div className={`sticky-header main-bar-wraper navbar-expand-lg ${headerFix ? "is-fixed" : ""}`}>
                     <div className="main-bar clearfix">
                         <div className="container clearfix">
-                            <div className="logo-header">
-                                <Link to={"/"} className="logo-dark"><img src={Logo} alt="" /></Link>
-                                <Link to={"/"} className="logo-light"><img src={LogoWhite}  alt="" /></Link>
+                            <div className="logo-header" >
+                                <Link to={"/"} className="logo-dark"><img src={Logo} width={50} alt="" /></Link>
+                                <Link to={"/"} className="logo-light"><img src={LogoWhite}  width={50} alt="" /></Link>
                             </div>
                             
                             <button  type="button"

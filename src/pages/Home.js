@@ -79,7 +79,7 @@ function Home() {
         <div className="clearfix bg-primary-light">
           <div className="container">
             <div className="currancy-wrapper" style={{ width: "100%" }}>
-              <div className="row justify-content-center">
+              <div className="row justify-content-center g-5">
                 <BannerCard />
               </div>
             </div>
@@ -159,7 +159,7 @@ function Home() {
           <div className="container">
             <div className="form-wrapper-box style-1 text-center">
               <div className="section-head ">
-                <h4 className="title m-t0">How to Purchase from us ?</h4>
+                <h4 className="title m-t0">User Journey Section</h4>
                 <p>
                   Fill out the below form and we will contact you via email &
                   details
@@ -279,12 +279,14 @@ function Home() {
                     </ul>
                   </div>
                   <div className="dz-info">
-                    <h2 className="dz-title">
-                      <Link to={"/blog-details"} className="text-white fs-5">
-					  Blockchain and Beyond - UP1's Impact on Revolutionizing Prediction Markets
+                    {/* <h2 className="dz-title"> */}
+                      <Link to={"/blog-details"} className="text-white fs-5 " >
+						<span>
+						  Blockchain and Beyond - UP1's Impact on Revolutionizing Prediction Markets
+						</span>
                       </Link>
-                    </h2>
-                    <div className="dz-meta">
+                    {/* </h2> */}
+                    <div className="dz-meta mt-4">
                       <ul>
                         <li className="post-author">
                           <Link to={"#"}>

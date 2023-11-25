@@ -140,7 +140,7 @@ function BannerCard() {
       {cardData.map((data, index) => (
         <div
           className="col-xl-6 col-lg-6 col-md-12 m-b30 wow fadeInUp"
-          style={{ maxWidth: "600px" }}
+          style={{ maxWidth: "480px" }}
           data-wow-delay="0.2s"
           key={index}
         >
@@ -177,7 +177,7 @@ function BannerCard() {
               </div>
               <div className="ms-5">
                 <div>
-                  <p className="fs-5 fw-medium" style={{ color: "white" }}>
+                  <p className="fs-5 fw-medium" style={{ color: "white" , height: "100px"}}>
                     {data.predict}
                   </p>
                 </div>
@@ -247,6 +247,7 @@ function BannerCard() {
                 {data.predefined.map((item, ind) => (
                   <div key={ind} className="col-3 p-2 fs-8">
                     <div
+                      className="rounded-1"
                       style={{ backgroundColor: data.color, color: "#271456" }}
                     >
                       {item}

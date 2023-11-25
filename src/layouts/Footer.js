@@ -66,7 +66,7 @@ function Footer(){
                                         <li><Link to={"/about-us"}>UP1 Token</Link></li>
                                         <li><Link to={"/pricing"}>Terms of Service</Link></li>
                                         <li><Link to={"/blog-list"}>Privacy Policy</Link></li>
-                                        <li><Link to={"/blog-grid"}>Disclamier</Link></li>
+                                        <li><Link to={"/blog-grid"}>Disclaimer</Link></li>
                                         <li><Link to={"/contact-us"}>Cookie Policy</Link></li>
                                         <li><Link to={"/contact-us"}>Security Policy</Link></li>
                                     </ul>
@@ -74,10 +74,10 @@ function Footer(){
                             </div>
                             <div className="col-xl-3 col-lg-4 col-sm-12" >
                                 <div className="widget widget_locations">
-                                    <h4 className="widget-title">Locations</h4>
+                                    <h4 className="widget-title">Contact</h4>
                                     <div className="clearfix">
                                         <h6 className="title">Washington</h6>
-                                        <p>1559 Alabama Ave SE, DC 20032, Washington, USA</p>
+                                        <p>1559 Alabama Ave SE, DC 20032, Washington, USA<br/><br/> contact@up1.app </p>
                                         <img src={flags} alt="" />
                                     </div>
                                 </div>
