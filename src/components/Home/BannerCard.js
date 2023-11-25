@@ -242,9 +242,9 @@ function BannerCard() {
               <div className="mt-4 mb-1" style={{ color: "black" }}>
                 {/* More Predefined Wagers */}
               </div>
-              <div className="row text-center">
+              <div className="row text-center" style={{ margin: "1px"}} >
                 {data.predefined.map((item, ind) => (
-                  <div key={ind} className="col-3 p-2 fs-8">
+                  <div key={ind} className="col-3 p-1 fs-8">
                     <div
                       className="rounded-1"
                       style={{ backgroundColor: data.color, color: "#271456" }}
