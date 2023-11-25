@@ -160,9 +160,9 @@ function BannerCard() {
                       justifyContent: "center",
                     }}
                   >
-                    <h2 className="title fs-4" style={{ color: "white" }}>
+                    <h4 className="title" style={{ color: "white", fontWeight: "500", fontSize: "24px" }}>
                       {data.title}
-                    </h2>
+                    </h4>
                   </div>
                   <div
                     className="d-flex flex-lg-col flex-md-column flex-sm-column flex-column"                    
@@ -210,7 +210,7 @@ function BannerCard() {
                 className="mb-3"
               ></div>
               <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex gap-2">
+                <div className="d-flex gap-3">
                   <div
                     className="py-1 px-2 d-flex align-items-center gap-2"
                     style={{
@@ -220,24 +220,27 @@ function BannerCard() {
                       textAlign: "center",
                       backgroundColor: data.color,
                       color: "#271456",
+                      fontSize: "14px"
                     }}
                   >
                     SET WAGER
                     <i class="fa fa-chevron-right" aria-hidden="true" />
                   </div>
                   <LCDclock color={data.color} />
-                </div>
-                <div
+                  <div
                   className="text-center px-4 py-1 rounded-2 d-flex align-items-center gap-1"
                   style={{
                     backgroundColor: data.color,
                     cursor: "pointer",
                     color: "white",
+                    fontSize: "14px"
                   }}
                 >
                   <i class="fa fa-share" aria-hidden="true" />
                   Share
                 </div>
+                </div>
+                
               </div>
               <div className="mt-4 mb-1" style={{ color: "black" }}>
                 {/* More Predefined Wagers */}
@@ -247,7 +250,7 @@ function BannerCard() {
                   <div key={ind} className="col-3 p-1 fs-8">
                     <div
                       className="rounded-1"
-                      style={{ backgroundColor: data.color, color: "#271456" }}
+                      style={{ backgroundColor: data.color, color: "#271456" , fontSize: "14px"}}
                     >
                       {item}
                     </div>

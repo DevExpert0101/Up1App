@@ -183,7 +183,10 @@ function Home() {
             <div className="form-wrapper-box style-1 text-center">
               <div className="section-head ">
                 <div className="section-head text-center">
-                  <h2 className="title">User Journey</h2>
+                  <h2 className="title">
+                    From Exploration to Rewards - Navigating UP1's
+                    Prediction Markets
+                  </h2>
                 </div>
               </div>
               {/* <form className="dz-form" onSubmit={(e) => formDetails(e)}>
@@ -258,30 +261,28 @@ function Home() {
               <div className="row sp60 d-flex ">
                 <div className="col-xl-4 col-md-6">
                   <div className="icon-bx-wraper style-3 text-center d-flex flex-column justify-content-center">
-                    <h4>User Jorney Pathway</h4>
-                    <p>
-                      Step-by-step guide or interactive path showcasing how to
-                      start predicting on UP1
-                    </p>
+                    <div className="icon-content">
+                      <h4 className="title">Explore Diverse Markets</h4>
+                      <p>Discover a World of Diverse Prediction Markets</p>
+                    </div>
                   </div>
                 </div>
-				<div className="col-xl-4 col-md-6">
+                <div className="col-xl-4 col-md-6">
                   <div className="icon-bx-wraper style-3 text-center d-flex flex-column justify-content-center">
-                    <h4>Visual Representations</h4>
-                    <span>
-					Screenshots or visuals illustrating the simple process of market creation and wager placement
-                    </span>
+                    <div className="icon-content">
+                      <h4 className="title">Make Precise Predictions</h4>
+                      <span>Leverage Insights to Make Accurate Forecasts</span>
+                    </div>
                   </div>
                 </div>
-				<div className="col-xl-4 col-md-6">
+                <div className="col-xl-4 col-md-6">
                   <div className="icon-bx-wraper style-3 text-center d-flex flex-column justify-content-center">
-                    <h4>Clear Call-to-Action</h4>
-                    <p>
-					Begin Your Prediction Journey Today
-                    </p>
+                    <div className="icon-content">
+                      <h4 className="title">Reap Rewards of Accuracy</h4>
+                      <p>Receive Incentives for Your Astute Predictions</p>
+                    </div>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
