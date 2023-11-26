@@ -24,7 +24,7 @@ function Incentives() {
   return (
     <>
       <div className="page-content">
-        <PageLayout pageTitle="Protocol" desc="This protocol is coming best now."/>
+        <PageLayout pageTitle="Incentives" desc="Staking and liquidity provision rewards"/>
         <section className="content-inner about-sec bg-primary-light">
           <div className="container">
             <div className="about-bx2 style-1 align-items-center">

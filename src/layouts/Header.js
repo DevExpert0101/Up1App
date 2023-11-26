@@ -81,7 +81,7 @@ function Header(){
                                     <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenu(!showMenu)}
                                       
-                                    ><Link to={"/protocol"}>Incentives</Link>
+                                    ><Link to={"/incentives"}>Incentives</Link>
                                         <ul className="sub-menu">
                                             <li><NavLink to={"#"}>Reward Systmes</NavLink></li>
                                             <li><NavLink to={"#"}>Staking Mechanism</NavLink></li>

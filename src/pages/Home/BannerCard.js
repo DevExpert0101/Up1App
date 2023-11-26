@@ -36,7 +36,7 @@ const cardData = [
     pool: "256,321",
     total: 1444,
     participants: 777,
-    market: "Cryotpcurrency",
+    market: "Cryptocurrency",
     predefined: [
       "$25,000",
       "$21,500",
@@ -168,8 +168,8 @@ function BannerCard() {
                 }}
                 className="mb-3"
               ></div>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex gap-3 align-items-center">
+              <div>
+                <div className="d-flex gap-3 align-items-center justify-content-center">
                   <div
                     className="py-1 px-2 d-flex align-items-center gap-2"
                     style={{
@@ -179,7 +179,7 @@ function BannerCard() {
                       textAlign: "center",
                       backgroundColor: data.color,
                       color: "#271456",
-                      fontSize: "14px"
+                      fontSize: "12px"
                     }}
                   >
                     SET WAGER
