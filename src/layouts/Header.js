@@ -16,7 +16,7 @@ function Header(){
 	}, []); 
 
     const [sidebarOpen, setSidebarOpen] = useState(false);	
-    // const [showMenu, setShowMenu] = useState(false);	   
+    const [showMenu, setShowMenu] = useState(false);	   
     return(
         <>
             <header className="site-header mo-left header header-transparent style-1">
@@ -49,7 +49,19 @@ function Header(){
                                 </div>                            
                                 <ul className="nav navbar-nav navbar">
                                     <li><NavLink to={"/"}>Home</NavLink></li>
-                                    <li><NavLink to={"/about-us"}>About</NavLink></li>                                    
+
+                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
+                                       onClick={()=>setShowMenu(!showMenu)}
+                                      
+                                    ><Link to={"/about-us"}>About</Link>
+                                        <ul className="sub-menu">
+                                            <li><NavLink to={"#"}>Mission</NavLink></li>
+                                            <li><NavLink to={"#"}>Whitepaper</NavLink></li>
+                                            <li><NavLink to={"#"}>Partnership</NavLink></li>
+                                        </ul>
+                                    </li>
+                                    
+
                                     <li><NavLink to={"/features"}>Features</NavLink></li>
                                     <li><NavLink to={"/protocol"}>Protocol</NavLink></li>
                                     <li><NavLink to={"/incentives"}>Incentives</NavLink></li>
