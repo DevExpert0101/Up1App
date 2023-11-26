@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import photo1 from "./../../assets/images/partnership/superbowl.png";
+import photo1 from "./../../assets/images/partnership/FundshingLOGNEW.jpg";
 import photo2 from "./../../assets/images/partnership/tesla.png";
 import photo3 from "./../../assets/images/partnership/vote.png";
 
