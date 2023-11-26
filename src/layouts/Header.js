@@ -99,6 +99,7 @@ function Header(){
                                             <li><NavLink to={"#"}>Discord</NavLink></li>
                                             <li><NavLink to={"#"}>Telegram</NavLink></li>
                                             <li><NavLink to={"#"}>Events</NavLink></li>
+                                            <li><NavLink to={"#"}>Blog</NavLink></li>
                                         </ul>
                                     </li>
                                     

@@ -7,8 +7,15 @@ import Shape1 from "../../assets/images/home-banner/shape1.png";
 import Shape3 from "./../../assets/images/home-banner/shape3.png";
 
 import Logo from "./../../assets/images/protocol/UP1Logo2.png";
-import decentralized2 from "./../../assets/images/features/decentralized2.jpg";
-import decentralized1 from "./../../assets/images/features/decentralized1.jpg";
+import security from "./../../assets/images/protocol/security.png";
+import up1 from "./../../assets/images/protocol/up1.png";
+import amm1 from "./../../assets/images/protocol/amm1.png";
+import amm2 from "./../../assets/images/protocol/amm2.png";
+import amm3 from "./../../assets/images/protocol/amm3.png";
+import roadmap1 from "./../../assets/images/protocol/roadmap1.png";
+import roadmap2 from "./../../assets/images/protocol/roadmap2.png";
+import roadmap3 from "./../../assets/images/protocol/roadmap3.png";
+
 
 const ImageBox = ({ image, changeClass }) => {
   return (
@@ -65,13 +72,10 @@ function Protocol() {
             <div className="row about-bx2 style-1 align-items-center">
               <div className="col-lg-6">
                 <div className="dz-media">
-                  <div className="row align-items-end m-b70">
+                  <div className="row align-items-end m-b70 d-flex justify-content-center">
+                    
                     <ImageBox
-                      image={decentralized1}
-                      changeClass="image-box-1"
-                    />
-                    <ImageBox
-                      image={decentralized2}
+                      image={up1}
                       changeClass="image-box-2"
                     />
                   </div>
@@ -119,27 +123,27 @@ function Protocol() {
               <div className="row">
                 <div className="d-flex col-4 flex-column">
                   <img
-                    src={decentralized2}
+                    src={amm1}
                     changeClass="image-box-1"
                     alt="decentral"
                   />
-                  <span className="text-center">hello</span>
+                  <span className="text-center">First</span>
                 </div>
                 <div className="d-flex col-4 flex-column">
                   <img
-                    src={decentralized2}
+                    src={amm2}
                     changeClass="image-box-1"
                     alt="decentral"
                   />
-                  <span className="text-center">white</span>
+                  <span className="text-center">Second</span>
                 </div>
                 <div className="d-flex col-4 flex-column">
                   <img
-                    src={decentralized2}
+                    src={amm3}
                     changeClass="image-box-1"
                     alt="decentral"
                   />
-                  <span className="text-center">blue</span>
+                  <span className="text-center">Third</span>
                 </div>
               </div>
             </div>
@@ -156,7 +160,7 @@ function Protocol() {
                 <div className="dz-media">
                   <div className="row align-items-end justify-content-center m-b70">
                     <ImageBox
-                      image={decentralized1}
+                      image={security}
                       changeClass="image-box-1"
                     />
                   </div>
@@ -212,7 +216,7 @@ function Protocol() {
                 <div className="dz-media">
                   <div className="row align-items-end m-b70 justify-content-center">
                     <ImageBox
-                      image={decentralized1}
+                      image={security}
                       changeClass="image-box-1"
                     />
                   </div>
@@ -239,19 +243,19 @@ function Protocol() {
                 <div className="dz-media">
                   <div className="row m-b70">
                     <img
-                      src={decentralized1}
+                      src={roadmap1}
                       className="col-4"
                       changeClass="image-box-1"
                       alt="decentral"
                     />
                     <img
-                      src={decentralized2}
+                      src={roadmap2}
                       className="col-4"
                       changeClass="image-box-2"
                       alt="decentral"
                     />
                     <img
-                      src={decentralized1}
+                      src={roadmap3}
                       className="col-4"
                       changeClass="image-box-1"
                       alt="decentral"
