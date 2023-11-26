@@ -49,35 +49,60 @@ function Header(){
                                 </div>                            
                                 <ul className="nav navbar-nav navbar">
                                     <li><NavLink to={"/"}>Home</NavLink></li>
+                                    <li><Link to={"/about-us"}>About</Link></li>
 
                                     <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenu(!showMenu)}
                                       
-                                    ><Link to={"/about-us"}>About</Link>
+                                    ><Link to={"/features"}>Features</Link>
                                         <ul className="sub-menu">
-                                            <li><NavLink to={"#"}>Mission</NavLink></li>
+                                            <li><NavLink to={"#"}>Infrastructure</NavLink></li>
+                                            <li><NavLink to={"#"}>Prediction Markets</NavLink></li>
+                                            <li><NavLink to={"#"}>Integration</NavLink></li>
+                                            <li><NavLink to={"#"}>Accessibility</NavLink></li>
+                                        </ul>
+                                    </li>                                    
+                                    
+                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
+                                       onClick={()=>setShowMenu(!showMenu)}
+                                      
+                                    ><Link to={"/protocol"}>Protocol</Link>
+                                        <ul className="sub-menu">
                                             <li><NavLink to={"#"}>Whitepaper</NavLink></li>
-                                            <li><NavLink to={"#"}>Partnership</NavLink></li>
+                                            <li><NavLink to={"#"}>UP1 Token</NavLink></li>
+                                            <li><NavLink to={"#"}>Automated Market Makers</NavLink></li>
+                                            <li><NavLink to={"#"}>Security</NavLink></li>
+                                            <li><NavLink to={"#"}>Decentalized Governance</NavLink></li>
+                                            <li><NavLink to={"#"}>Roadmap</NavLink></li>
+                                        </ul>
+                                    </li> 
+
+
+                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
+                                       onClick={()=>setShowMenu(!showMenu)}
+                                      
+                                    ><Link to={"/protocol"}>Incentives</Link>
+                                        <ul className="sub-menu">
+                                            <li><NavLink to={"#"}>Reward Systmes</NavLink></li>
+                                            <li><NavLink to={"#"}>Staking Mechanism</NavLink></li>
+                                            <li><NavLink to={"#"}>Liquidity Provision Rewards</NavLink></li>
+                                            <li><NavLink to={"#"}>Prediction and Accuracy Bonuses</NavLink></li>
+                                            <li><NavLink to={"#"}>Governance Prediction</NavLink></li>
+                                        </ul>
+                                    </li> 
+
+                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
+                                       onClick={()=>setShowMenu(!showMenu)}                                      
+                                    ><Link to={"/protocol"}>Community</Link>
+                                        <ul className="sub-menu">
+                                            <li><NavLink to={"#"}>Github</NavLink></li>
+                                            <li><NavLink to={"#"}>Discord</NavLink></li>
+                                            <li><NavLink to={"#"}>Telegram</NavLink></li>
+                                            <li><NavLink to={"#"}>Events</NavLink></li>
                                         </ul>
                                     </li>
                                     
-
-                                    <li><NavLink to={"/features"}>Features</NavLink></li>
-                                    <li><NavLink to={"/protocol"}>Protocol</NavLink></li>
-                                    <li><NavLink to={"/incentives"}>Incentives</NavLink></li>
-                                    <li><NavLink to={"/community"}>Community</NavLink></li>
-                                    <li><NavLink to={"/contact-us"}>Contact</NavLink></li>
-                                    {/* <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
-                                       onClick={()=>setShowMenu(!showMenu)}
-                                      
-                                    ><Link to={"#"}>Blog</Link>
-                                        <ul className="sub-menu">
-                                            <li><NavLink to={"/blog-list"}>Blog list</NavLink></li>
-                                            <li><NavLink to={"/blog-grid"}>Blog grid</NavLink></li>
-                                            <li><NavLink to={"/blog-details"}>Blog details</NavLink></li>
-                                        </ul>
-                                    </li>
-                                    <li><NavLink to={"/contact-us"}>Contact</NavLink></li> */}
+                                    <li><NavLink to={"/contact-us"}>Contact</NavLink></li>                                    
                                 </ul>                               
                             
                                 <div className="header-bottom">
