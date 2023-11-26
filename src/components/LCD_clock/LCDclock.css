@@ -1,39 +1,11 @@
-/* .lcd-clock {
-    display: flex;
-    font-family:  Trattatello, fantasy;
-    color: rgb(46, 46, 117);
-  }
-  
-  .digit {
-    width: 1em;
-    text-align: center;
-    position: relative;
-    animation: flow-up 0.5s ease-in-out;
-  }
-  
-  .separator {
-    padding: 0 0.2em;
-  }
-  
-  @keyframes flow-up {
-    0% {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-   */
-   .lcd-clock {
+.lcd-clock {
     display: flex;
     font-family: 'Digital-7', monospace; /* Make sure this font is imported in your project */
     color: rgb(53, 53, 143);
   }
-  
   .digit {
     width: 1em;
+    font-size: 18px;
     text-align: center;
     position: relative;
     overflow: hidden; /* Prevents the animation from being seen outside this box */

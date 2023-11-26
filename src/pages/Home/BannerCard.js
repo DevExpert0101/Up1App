@@ -6,7 +6,7 @@ import coin4 from "./../../assets/images/coins/coin4.png";
 import superbowl from "./../../assets/images/card/superbowl.png";
 import vote from "./../../assets/images/card/vote.png";
 import tesla from "./../../assets/images/card/tesla.png";
-import LCDclock from "./LCDclodk";
+import LCDclock from "../../components/LCD_clock/LCDclodk";
 
 import { Card, Button, Badge } from "react-bootstrap";
 
@@ -210,7 +210,7 @@ function BannerCard() {
                 className="mb-3"
               ></div>
               <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex gap-3">
+                <div className="d-flex gap-3 align-items-center">
                   <div
                     className="py-1 px-2 d-flex align-items-center gap-2"
                     style={{

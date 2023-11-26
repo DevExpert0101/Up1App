@@ -1,7 +1,7 @@
 import React from 'react';
 
 import PageLayout from './../layouts/PageLayout';
-import PriceBlog from './../components/About/PriceBlog';
+import PriceBlog from './About/PriceBlog__';
 
 import Shap1 from './../assets/images/home-banner/shape1.png';
 import Shap3 from './../assets/images/home-banner/shape3.png';

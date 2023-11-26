@@ -52,7 +52,7 @@ function Header(){
                                     <li><NavLink to={"/about-us"}>About</NavLink></li>                                    
                                     <li><NavLink to={"/features"}>Features</NavLink></li>
                                     <li><NavLink to={"/protocol"}>Protocol</NavLink></li>
-                                    <li><NavLink to={"/intentives"}>Incentives</NavLink></li>
+                                    <li><NavLink to={"/incentives"}>Incentives</NavLink></li>
                                     <li><NavLink to={"/community"}>Community</NavLink></li>
                                     <li><NavLink to={"/contact"}>Contact</NavLink></li>
                                     {/* <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"

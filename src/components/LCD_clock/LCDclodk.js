@@ -4,7 +4,6 @@ import './LCDclock.css';
 
 const LCDclock = ({color}) => {
   const [currentTime, setCurrentTime] = useState({
-    hours: new Date().getHours(),
     minutes: new Date().getMinutes(),
     seconds: new Date().getSeconds(),
   });
@@ -13,7 +12,6 @@ const LCDclock = ({color}) => {
     const intervalId = setInterval(() => {
       const now = new Date();
       setCurrentTime({
-        hours: now.getHours(),
         minutes: now.getMinutes(),
         seconds: now.getSeconds(),
       });

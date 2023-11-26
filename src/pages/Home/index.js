@@ -3,27 +3,27 @@ import { Link, useNavigate } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 
 //components
-import BannerCard from "./../components/Home/BannerCard";
-import OneStop from "./../components/Home/OneStop";
-import RecentNews from "./../components/Home/RecentNews";
+import BannerCard from "./BannerCard";
+import OneStop from "./OneStop";
+import RecentNews from "./RecentNews";
 
 //images
-import baner1 from "./../assets/images/home-banner/img1.png";
-import baner2 from "./../assets/images/home-banner/img2.png";
-import Shape1 from "./../assets/images/home-banner/shape1.png";
-import Shape3 from "./../assets/images/home-banner/shape3.png";
-import wallet from "./../assets/images/icons/wallet.svg";
-import friend from "./../assets/images/icons/friend.svg";
-import participation from "./../assets/images/icons/participation.svg";
-import outcome from "./../assets/images/icons/outcome.svg";
+import baner1 from "./../../assets/images/home-banner/img1.png";
+import baner2 from "./../../assets/images/home-banner/img2.png";
+import Shape1 from "./../../assets/images/home-banner/shape1.png";
+import Shape3 from "./../../assets/images/home-banner/shape3.png";
+import wallet from "./../../assets/images/icons/wallet.svg";
+import friend from "./../../assets/images/icons/friend.svg";
+import participation from "./../../assets/images/icons/participation.svg";
+import outcome from "./../../assets/images/icons/outcome.svg";
 
-import coin1 from "./../assets/images/coins/coin1.png";
-import coin3 from "./../assets/images/coins/coin3.png";
-import coin4 from "./../assets/images/coins/coin4.png";
+import coin1 from "./../../assets/images/coins/coin1.png";
+import coin3 from "./../../assets/images/coins/coin3.png";
+import coin4 from "./../../assets/images/coins/coin4.png";
 
-import bloglg from "./../assets/images/blog/blog-ig.png";
-import avatar3 from "./../assets/images/avatar/avatar3.jpg";
-import videobox from "./../assets/images/about/videobx.png";
+import bloglg from "./../../assets/images/blog/blog-ig.png";
+import avatar3 from "./../../assets/images/avatar/avatar3.jpg";
+import videobox from "./../../assets/images/about/videobx.png";
 import ModalVideo from "react-modal-video";
 
 const trustBlog = [
@@ -190,75 +190,7 @@ function Home() {
                   </h2>
                 </div>
               </div>
-              {/* <form className="dz-form" onSubmit={(e) => formDetails(e)}>
-                <div className="form-wrapper">
-                  <div className="flex-1">
-                    <div className="row g-3">
-                      <div className="col-xl-3 col-md-6 ">
-                        <input
-                          name="dzName"
-                          type="text"
-                          required=""
-                          placeholder="Wallet Address"
-                          className="form-control"
-                        />
-                      </div>
-                      <div className="col-xl-3 col-md-6 ">
-                        <Dropdown className="select-drop">
-                          <Dropdown.Toggle
-                            as="div"
-                            className="i-false select-drop-toggle"
-                          >
-                            <img src={selecttext[0]} alt="" /> {selecttext[1]}{" "}
-                            <i className="fa-sharp fa-solid fa-angle-down" />
-                          </Dropdown.Toggle>
-                          <Dropdown.Menu>
-                            <Dropdown.Item
-                              onClick={() => setSelectText([coin4, "Bitcoin"])}
-                            >
-                              <img src={coin4} alt="" /> Bitcoin
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              onClick={() => setSelectText([coin3, "Ethereum"])}
-                            >
-                              <img src={coin3} alt="" /> Ethereum
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              onClick={() => setSelectText([coin1, "Tether"])}
-                            >
-                              <img src={coin1} alt="" /> Tether
-                            </Dropdown.Item>
-                          </Dropdown.Menu>
-                        </Dropdown>
-                      </div>
-                      <div className="col-xl-3 col-md-6 ">
-                        <input
-                          name="dzName"
-                          type="text"
-                          required=""
-                          placeholder="How much worth in $?"
-                          className="form-control"
-                        />
-                      </div>
-                      <div className="col-xl-3 col-md-6 ">
-                        <input
-                          name="dzName"
-                          type="text"
-                          required=""
-                          placeholder="Email Address"
-                          className="form-control"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    type="submit"
-                    className="btn btn-lg btn-gradient btn-primary btn-shadow"
-                  >
-                    Get Strated
-                  </button>
-                </div>
-              </form> */}
+              
               <div className="row sp60 d-flex ">
                 <div className="col-xl-4 col-md-6">
                   <div className="icon-bx-wraper style-5 text-center d-flex flex-column justify-content-center">
