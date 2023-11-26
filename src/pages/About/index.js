@@ -38,11 +38,11 @@ function AboutUs() {
                 <div className="dz-media">
                   <div className="row align-items-end">
                     <ImageBox image={about4} changeClass="image-box-1" />
-                    <ImageBox image={about2} changeClass="image-box-2" />
+                    <ImageBox image={about2} changeClass="image-box-1" />
                   </div>
                   <div className="row">
-                    <ImageBox image={about3} changeClass="image-box-3" />
-                    <ImageBox image={about1} changeClass="image-box-4" />
+                    <ImageBox image={about3} changeClass="image-box-1" />
+                    <ImageBox image={about1} changeClass="image-box-1" />
                   </div>
                 </div>
               </div>

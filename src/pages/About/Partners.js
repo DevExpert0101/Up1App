@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import photo1 from "./../../assets/images/avatar/avatar1.jpg";
-import photo2 from "./../../assets/images/avatar/avatar2.jpg";
-import photo3 from "./../../assets/images/avatar/avatar3.jpg";
+import photo1 from "./../../assets/images/partnership/superbowl.png";
+import photo2 from "./../../assets/images/partnership/tesla.png";
+import photo3 from "./../../assets/images/partnership/vote.png";
 
 const pricingBlog = [
   {
