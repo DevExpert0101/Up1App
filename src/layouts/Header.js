@@ -93,7 +93,7 @@ function Header(){
 
                                     <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenu(!showMenu)}                                      
-                                    ><Link to={"/protocol"}>Community</Link>
+                                    ><Link to={"/community"}>Community</Link>
                                         <ul className="sub-menu">
                                             <li><NavLink to={"#"}>Github</NavLink></li>
                                             <li><NavLink to={"#"}>Discord</NavLink></li>

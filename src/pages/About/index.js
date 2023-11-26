@@ -95,7 +95,7 @@ function AboutUs() {
           <img className="bg-shape2" src={Shape1} alt="" />
           <div className="container">
             <div className="section-head text-center ">
-              <h2 className="title">Partnership</h2>
+              <h2 className="title">Partnerships</h2>
             </div>
             <div className="row justify-content-center">
               <Partners />
