@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import photo1 from "./../../assets/images/avatar/avatar1.jpg";
 import photo2 from "./../../assets/images/avatar/avatar2.jpg";
 import photo3 from "./../../assets/images/avatar/avatar3.jpg";
@@ -44,7 +43,7 @@ const Team = () => {
             }}
           >
             <div className="pricingtable-inner">
-              <img src={data.photo} style={{ width: "-webkit-fill-available"}}></img>
+              <img src={data.photo} style={{ width: "-webkit-fill-available"}} alt="price"></img>
               <div className="mt-3 align-items-center"><span>{data.description}</span></div>              
             </div>
           </div>

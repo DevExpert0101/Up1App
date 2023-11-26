@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { Dropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 //components
 import BannerCard from "./BannerCard";
@@ -16,10 +15,6 @@ import wallet from "./../../assets/images/icons/wallet.svg";
 import friend from "./../../assets/images/icons/friend.svg";
 import participation from "./../../assets/images/icons/participation.svg";
 import outcome from "./../../assets/images/icons/outcome.svg";
-
-import coin1 from "./../../assets/images/coins/coin1.png";
-import coin3 from "./../../assets/images/coins/coin3.png";
-import coin4 from "./../../assets/images/coins/coin4.png";
 
 import bloglg from "./../../assets/images/blog/blog-ig.png";
 import avatar3 from "./../../assets/images/avatar/avatar3.jpg";
@@ -53,13 +48,8 @@ const trustBlog = [
   },
 ];
 
-function Home() {
-  const nav = useNavigate();
-  const formDetails = (e) => {
-    e.preventDefault();
-    nav("/contact-us");
-  };
-  const [selecttext, setSelectText] = useState([coin4, "Bitcoin"]);
+function Home() {  
+  
   const [isOpen, setOpen] = useState(false);
   return (
     <>
@@ -194,9 +184,9 @@ function Home() {
               <div className="row sp60 d-flex ">
                 <div className="col-xl-4 col-md-6">
                   <div className="icon-bx-wraper style-5 text-center d-flex flex-column justify-content-center">
-                    <div className="icon-content-from">
+                    <div className="icon-content">
                       <h4 className="title">Explore Diverse Markets</h4>
-                      <p>Discover a World of Diverse Prediction Markets</p>
+                      <span>Discover a World of Diverse Prediction Markets</span>
                     </div>
                   </div>
                 </div>
@@ -212,7 +202,7 @@ function Home() {
                   <div className="icon-bx-wraper style-5 text-center d-flex flex-column justify-content-center">
                     <div className="icon-content">
                       <h4 className="title">Reap Rewards of Accuracy</h4>
-                      <p>Receive Incentives for Your Astute Predictions</p>
+                      <span>Receive Incentives for Your Astute Predictions</span>
                     </div>
                   </div>
                 </div>

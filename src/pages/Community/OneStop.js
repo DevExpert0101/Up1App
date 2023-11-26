@@ -6,12 +6,6 @@ import github from './../../assets/images/icons/github.svg';
 import discord from './../../assets/images/icons/discord.svg';
 import telegram from './../../assets/images/icons/telegram.svg';
 import events from './../../assets/images/icons/events.svg';
-import Icon13 from './../../assets/images/icons/icon13.svg';
-import pic1 from './../../assets/images/about/pic1.jpg';
-import support1 from './../../assets/images/icons/support1.png';
-import plus from './../../assets/images/icons/plus.png';
-
-
 
 const cardData = [
     {image: github, title:'Github', description: "Forecasting Trends in the Crypto Sphere"},

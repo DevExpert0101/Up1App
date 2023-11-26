@@ -1,53 +1,12 @@
 import React from "react";
 
-import coin1 from "./../../assets/images/coins/coin1.png";
-import coin3 from "./../../assets/images/coins/coin3.png";
 import coin4 from "./../../assets/images/coins/coin4.png";
 import superbowl from "./../../assets/images/card/superbowl.png";
 import vote from "./../../assets/images/card/vote.png";
 import tesla from "./../../assets/images/card/tesla.png";
 import LCDclock from "../../components/LCD_clock/LCDclodk";
 
-import { Card, Button, Badge } from "react-bootstrap";
-
-const BitcoinCard = () => {
-  return (
-    <Card className="text-center">
-      <Card.Header>
-        <Badge variant="warning">
-          <i className="fab fa-btc"></i>
-        </Badge>{" "}
-        Predict Future of Bitcoin
-      </Card.Header>
-      <Card.Body>
-        <Card.Title>
-          Predict whether Bitcoin will surpass $70,000 by December 2023.
-        </Card.Title>
-        <Button variant="primary">Set Wager</Button>
-        <div className="timer">00:01</div>
-        <div>More Predefined Wagers</div>
-        <div className="predefined-wagers">
-          <Badge variant="secondary">37,568</Badge>
-          <Badge variant="secondary">48,756</Badge>
-          <Badge variant="secondary">56,000</Badge>
-          <Badge variant="secondary">65,000</Badge>
-          <Badge variant="secondary">75,000</Badge>
-          <Badge variant="secondary">95,000</Badge>
-          <Badge variant="secondary">101,454</Badge>
-          <Badge variant="secondary">108,654</Badge>
-        </div>
-      </Card.Body>
-      <Card.Footer className="text-muted">
-        Pool: 256,321 UP1 | Total Wagers: 1444 | Number of participants: 777 |
-        Market: Cryptocurrency
-      </Card.Footer>
-    </Card>
-  );
-};
 const cardData = [
-  // {image: coin4, title:'Bitcoin', subtitle:'BTC', price:'16,048.40', percent:'-1.26'},
-  // {image: coin3, title:'Ethereum', subtitle:'ETH', price:'1,122.44', percent:'-1.55'},
-  // {image: coin1, title:'Tether', subtitle:'USDT', price:'1.00', percent:'0.0099'},
   {
     image: superbowl,
     title: "Super Bowl Winner Prediction",

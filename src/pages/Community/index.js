@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { Dropdown } from "react-bootstrap";
+import React from "react";
+import { Link } from "react-router-dom";
 
 //components
 import OneStop from "./OneStop";
@@ -11,10 +10,7 @@ import baner2 from "./../../assets/images/home-banner/img2.png";
 
 
 
-function Community() {
-
-  const nav = useNavigate();
-  const [isOpen, setOpen] = useState(false);
+function Community() {  
 
   return (
     <>

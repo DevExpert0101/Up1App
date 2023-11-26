@@ -1,10 +1,6 @@
-import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import ModalVideo from "react-modal-video";
+import React from "react";
 
 import PageLayout from "../../layouts/PageLayout";
-import PriceBlog from "../About/Team";
-import RecentNews from "../Home/RecentNews";
 
 //Images
 import Shape1 from '../../assets/images/home-banner/shape1.png';
@@ -12,15 +8,6 @@ import Shape3 from "./../../assets/images/home-banner/shape3.png";
 
 import decentralized1 from "./../../assets/images/features/decentralized1.jpg";
 import decentralized2 from "./../../assets/images/features/decentralized2.jpg";
-import accurate1 from "./../../assets/images/features/accurate1.jpg";
-import accurate2 from "./../../assets/images/features/accurate2.jpg";
-import community1 from "./../../assets/images/features/community1.png";
-import community2 from "./../../assets/images/features/community2.jpg";
-
-import videobox from "./../../assets/images/about/videobx.png";
-
-import bloglg from "./../../assets/images/blog/blog-ig.png";
-import avatar3 from "./../../assets/images/avatar/avatar3.jpg";
 
 const ImageBox = ({ image, changeClass }) => {
   return (
@@ -33,12 +20,7 @@ const ImageBox = ({ image, changeClass }) => {
 };
 
 function Incentives() {
-  const nav = useNavigate();
-  const formDetails = (e) => {
-    e.preventDefault();
-    nav("/contact-us");
-  };
-  const [isOpen, setOpen] = useState(false);
+    
   return (
     <>
       <div className="page-content">
@@ -111,15 +93,15 @@ function Incentives() {
                 </div>
                 <div className="row">
                     <div className="d-flex col-4 flex-column">
-                        <img src={decentralized2} changeClass="image-box-1" />
+                        <img src={decentralized2} changeClass="image-box-1" alt="decentral"/>
                         <span className="text-center">hello</span>
                     </div>
                     <div className="d-flex col-4 flex-column">
-                        <img src={decentralized2} changeClass="image-box-1" />
+                        <img src={decentralized2} changeClass="image-box-1" alt="decentral"/>
                         <span className="text-center">white</span>
                     </div>
                     <div className="d-flex col-4 flex-column">
-                        <img src={decentralized2} changeClass="image-box-1" />
+                        <img src={decentralized2} changeClass="image-box-1" alt="decentral"/>
                         <span className="text-center">blue</span>
                     </div>
               </div>

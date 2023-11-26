@@ -29,11 +29,11 @@ function Index(){
 						<Route path='/protocol' exact element={<Protocol />} />
 						<Route path='/incentives' exact element={<Incentive />} />
 						<Route path='/community' exact element={<Community />} />
-						
+
 						<Route path='/blog-list' exact element={<BlogList />} />
 						<Route path='/blog-grid' exact element={<BlogGrid />} />
 						<Route path='/blog-details' exact element={<BlogDetails />} />
-						<Route path='/contact' exact element={<ContactUs />} />
+						<Route path='/contact-us' exact element={<ContactUs />} />
 					</Routes>
 					<Footer />
 				<ScrollToTop />
