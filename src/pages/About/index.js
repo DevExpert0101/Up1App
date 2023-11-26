@@ -9,10 +9,10 @@ import Team from "./Team";
 import Shape1 from "./../../assets/images/home-banner/shape1.png";
 import Shape3 from "./../../assets/images/home-banner/shape3.png";
 
-import about2 from "./../../assets/images/about/about-2.jpg";
-import about3 from "./../../assets/images/about/about-3.jpg";
-import about4 from "./../../assets/images/about/about-4.jpg";
-import about1 from "./../../assets/images/about/about-1.jpg";
+import about2 from "./../../assets/images/about/about-2.png";
+import about3 from "./../../assets/images/about/about-3.png";
+import about4 from "./../../assets/images/about/about-4.png";
+import about1 from "./../../assets/images/about/about-1.png";
 import Partners from "./Partners";
 
 const ImageBox = ({ image, changeClass }) => {

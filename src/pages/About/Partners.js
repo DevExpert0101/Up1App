@@ -45,7 +45,7 @@ const Partners = () => {
           >
             <div className="pricingtable-inner">
               <img src={data.photo} style={{ width: "-webkit-fill-available"}}></img>
-              <div className="mt-3 align-items-center"><span>{data.description}</span></div>              
+              {/* <div className="mt-3 align-items-center"><span>{data.description}</span></div>               */}
             </div>
           </div>
         </div>
