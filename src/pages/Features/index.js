@@ -77,7 +77,7 @@ function Features() {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 d-flex align-items-center">
                   <div className="dz-media">
                     <div className="row align-items-end m-b70">
                       <ImageBox image={prediction1} changeClass="image-box-1" />
@@ -87,7 +87,7 @@ function Features() {
                 </div>
             </div>
             <div className="row about-bx2 style-1">
-              <div className="col-lg-6">
+              <div className="col-lg-6 d-flex align-items-center">
                   <div className="dz-media">
                     <div className="row align-items-end m-b70">
                       <ImageBox
@@ -119,7 +119,7 @@ function Features() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 d-flex align-items-center">
                 <div className="dz-media">
                   <div className="row align-items-end m-b70">
                     <ImageBox image={accessibility1} changeClass="image-box-1" />

@@ -16,7 +16,10 @@ function Header(){
 	}, []); 
 
     const [sidebarOpen, setSidebarOpen] = useState(false);	
-    const [showMenu, setShowMenu] = useState(false);	   
+    const [showMenuFeature, setShowMenuFeature] = useState(false);
+    const [showMenuProtocol, setShowMenuProtocol] = useState(false);
+    const [showMenuIncentives, setShowMenuIncentives] = useState(false);
+    const [showMenuCommunity, setShowMenuCommunity] = useState(false);
     return(
         <>
             <header className="site-header mo-left header header-transparent style-1">
@@ -50,66 +53,71 @@ function Header(){
                                     </NavLink>
                                 </div>                            
                                 <ul className="nav navbar-nav navbar">
-                                    <li><NavLink to={"/"}>Home</NavLink></li>
-                                    <li><Link to={"/about-us"}>About</Link></li>
+                                    <li><NavLink to={"/"} onClick={()=>setSidebarOpen(!sidebarOpen)}>Home</NavLink></li>
+                                    <li><Link to={"/about-us"} onClick={()=>setSidebarOpen(!sidebarOpen)}>About</Link></li>
 
-                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
-                                       onClick={()=>setShowMenu(!showMenu)}
+                                    <li className={`sub-menu-down ${showMenuFeature ? "open" : ""}`} id="menushow"
+                                       onClick={()=>setShowMenuFeature(!showMenuFeature)}
                                       
                                     ><Link to={"/features"}>Features</Link>
                                         <ul className="sub-menu">
-                                            <li><NavLink to={"#"}>Infrastructure</NavLink></li>
-                                            <li><NavLink to={"#"}>Prediction Markets</NavLink></li>
-                                            <li><NavLink to={"#"}>Integration</NavLink></li>
-                                            <li><NavLink to={"#"}>Accessibility</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Infrastructure</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Prediction Markets</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Integration</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Accessibility</NavLink></li>
                                         </ul>
                                     </li>                                    
                                     
-                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
-                                       onClick={()=>setShowMenu(!showMenu)}
+                                    <li className={`sub-menu-down ${showMenuProtocol ? "open" : ""}`} id="menushow"
+                                       onClick={()=>setShowMenuProtocol(!showMenuProtocol)}
                                       
                                     ><Link to={"/protocol"}>Protocol</Link>
                                         <ul className="sub-menu">
-                                            <li><NavLink to={"#"}>Whitepaper</NavLink></li>
-                                            <li><NavLink to={"#"}>UP1 Token</NavLink></li>
-                                            <li><NavLink to={"#"}>Automated Market Makers</NavLink></li>
-                                            <li><NavLink to={"#"}>Security</NavLink></li>
-                                            <li><NavLink to={"#"}>Decentalized Governance</NavLink></li>
-                                            <li><NavLink to={"#"}>Roadmap</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Whitepaper</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>UP1 Token</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Automated Market Makers</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Security</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Decentalized Governance</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Roadmap</NavLink></li>
                                         </ul>
                                     </li> 
 
 
-                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
-                                       onClick={()=>setShowMenu(!showMenu)}
+                                    <li className={`sub-menu-down ${showMenuIncentives ? "open" : ""}`} id="menushow"
+                                       onClick={()=>setShowMenuIncentives(!showMenuIncentives)}
                                       
                                     ><Link to={"/incentives"}>Incentives</Link>
                                         <ul className="sub-menu">
-                                            <li><NavLink to={"#"}>Reward Systmes</NavLink></li>
-                                            <li><NavLink to={"#"}>Staking Mechanism</NavLink></li>
-                                            <li><NavLink to={"#"}>Liquidity Provision Rewards</NavLink></li>
-                                            <li><NavLink to={"#"}>Prediction and Accuracy Bonuses</NavLink></li>
-                                            <li><NavLink to={"#"}>Governance Prediction</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Reward Systmes</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Staking Mechanism</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Liquidity Provision Rewards</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Prediction and Accuracy Bonuses</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Governance Prediction</NavLink></li>
                                         </ul>
                                     </li> 
 
-                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
-                                       onClick={()=>setShowMenu(!showMenu)}                                      
+                                    <li className={`sub-menu-down ${showMenuCommunity ? "open" : ""}`} id="menushow"
+                                       onClick={()=>setShowMenuCommunity(!showMenuCommunity)}                                      
                                     ><Link to={"/community"}>Community</Link>
                                         <ul className="sub-menu">
-                                            <li><NavLink to={"#"}>Github</NavLink></li>
-                                            <li><NavLink to={"#"}>Discord</NavLink></li>
-                                            <li><NavLink to={"#"}>Telegram</NavLink></li>
-                                            <li><NavLink to={"#"}>Events</NavLink></li>
-                                            <li><NavLink to={"#"}>Blog</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Github</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Discord</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Telegram</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Events</NavLink></li>
+                                            <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Blog</NavLink></li>
                                         </ul>
                                     </li>
                                     
-                                    <li><NavLink to={"/contact-us"}>Contact</NavLink></li>                                    
+                                                                       
                                 </ul>                               
                             
                                 <div className="header-bottom">
+                                    
                                     <div className="dz-social-icon">
+                                        <ul className="nav navbar-nav navbar mb-5">
+                                            <li><a target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/login">Login</a></li> 
+                                            <li><a target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/page-register">Register</a></li>
+                                        </ul>
                                         <ul>
                                             <li><a target="_blank" className="fab fa-facebook-f" rel="noreferrer" href="https://www.facebook.com/"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-twitter" rel="noreferrer" href="https://twitter.com/"></a></li>{" "}

@@ -156,14 +156,13 @@ function Protocol() {
           <img className="bg-shape3" src={Shape3} alt="" />
           <img className="bg-shape4" src={Shape3} alt="" />
         </section>
-        <section className="content-inner about-sec bg-light">
+        {/* <section className="content-inner about-sec bg-light">
           <div className="container">
             <div className="row about-bx2 style-1 align-items-center">
               <div className="col-lg-6 d-flex justify-content-center">
                   <img
-                      src={security}
-                      style={{width: '100px'}}
-                      className="rounded-2"
+                      alt="security"
+                      src={security}                      
                       changeClass="image-box-1" />
               </div>
               <div className="col-lg-6 about-content ps-lg-5 m-b100">
@@ -188,6 +187,43 @@ function Protocol() {
             </div>
           </div>
           <img className="bg-shape4" src={Shape3} alt="" />
+        </section> */}
+        <section className="content-inner about-sec bg-light">
+          <div className="container">
+            <div className="row about-bx2 style-1 align-items-center">
+              <div className="col-lg-6">
+                <div className="dz-media">
+                  <div className="row align-items-end m-b70 d-flex justify-content-center">
+                    
+                    <ImageBox
+                      image={security}
+                      changeClass="image-box-2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 about-content ps-lg-5 m-b100">
+                <div className="section-head">
+                  <h2 className="title">Security</h2>
+                  <p className="m-0 lh-base">
+                  Foundation of our entire blockchain ecosystem. We have
+                    engineered our platform with the highest security standards
+                    to safeguard user data and assets. Our multi-layered
+                    security architecture includes advanced encryption, rigorous
+                    smart contract auditing, and continuous network monitoring
+                    to prevent unauthorized access and detect potential threats.
+                    We are dedicated to maintaining a secure environment,
+                    incorporating both traditional cybersecurity measures and
+                    innovative blockchain-specific defenses. With UP1, users and
+                    developers can operate with the confidence that their
+                    transactions and applications are protected in a
+                    state-of-the-art secure blockchain network.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img className="bg-shape3" src={Shape3} alt="" />
         </section>
         <section className="content-inner about-sec bg-primary-light">
           <div className="container">
@@ -215,11 +251,9 @@ function Protocol() {
               <div className="col-lg-6">
                 <div className="dz-media">
                   <div className="d-flex align-items-end m-b70 justify-content-center">
-                    <img
-                      src={decentralized}
-                      className="rounded-2"
-                      style={{width: '200px'}}
-                      changeClass="image-box-1"
+                  <ImageBox
+                      image={decentralized}
+                      changeClass="image-box-2"
                     />
                   </div>
                 </div>
