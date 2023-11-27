@@ -32,7 +32,7 @@ function ContactUs(){
                                                 </li>
                                                 <li>
                                                     <i className="fa fa-envelope"></i> 
-                                                    <span>info@up1.com <br/>services@up1.com</span>
+                                                    <span>contact@up1.app </span>
                                                 </li>
                                                 <li>
                                                     <i className="fas fa-map-marker-alt"></i>
