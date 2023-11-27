@@ -36,7 +36,7 @@ function ContactUs(){
                                                 </li>
                                                 <li>
                                                     <i className="fas fa-map-marker-alt"></i>
-                                                    <span>poti sa pui adresa de pe 350 S. Northwest Hyw. Suite 300 Park Ridge, IL 60068</span>
+                                                    <span>350 S. Northwest Hyw. Suite 300 Park Ridge, IL 60068</span>
                                                 </li>
                                             </ul>
                                         </div>
