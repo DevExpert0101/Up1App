@@ -38,11 +38,12 @@ const Team = () => {
             className={`pricingtable-wrapper box-hover style-1 ${
               index === hovered ? "active" : ""
             }`}
+            style={{height: '100%'}}
             onMouseEnter={() => {
               setHovered(index);
             }}
           >
-            <div className="pricingtable-inner">
+            <div className="pricingtable-inner" >
               <div style={{ position: "relative" }}>
                 <img
                   src={data.photo}
@@ -75,7 +76,7 @@ const Team = () => {
                 }}>
                   {data.name} - {data.role}
                 </h6>
-                <p style={{ height: "100px" }}>{data.description}</p>
+                <p>{data.description}</p>
               </div>
             </div>
           </div>

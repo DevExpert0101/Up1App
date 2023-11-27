@@ -1,7 +1,7 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
 
-import PageLayout from './../layouts/PageLayout';
+import PageLayout from '../../layouts/PageLayout';
 
 function ContactUs(){
     const nav = useNavigate();
@@ -15,7 +15,7 @@ function ContactUs(){
                 <PageLayout desc={false} pageTitle="Contact Us" />
                 <section className="content-inner contact-form-wraper style-1">
 			        <div className="container">
-                        <div className="row align-items-center">
+                        <div className="row align-items-center flex-column-reverse flex-xl-row">
                             <div className="col-xl-5 col-lg-5 m-b30">
                                 <div className="info-box">
                                     <div className="info">

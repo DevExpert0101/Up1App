@@ -45,7 +45,9 @@ function Header(){
                                 
                             <div className={`header-nav navbar-collapse collapse justify-content-end ${sidebarOpen ? "show" : ""}`} id="navbarNavDropdown" >
                                 <div className="logo-header mostion">
-                                    <NavLink to={"#"} className="logo-dark"><img src={Logo} alt="" /></NavLink>
+                                    <NavLink to={"#"} className="logo-dark">
+                                        <img src={Logo} alt=""  style={{width: '50px'}}/>
+                                    </NavLink>
                                 </div>                            
                                 <ul className="nav navbar-nav navbar">
                                     <li><NavLink to={"/"}>Home</NavLink></li>

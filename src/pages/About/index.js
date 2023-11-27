@@ -46,7 +46,7 @@ function AboutUs() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 about-content ps-lg-5 m-b30">
+              <div className="col-lg-6 about-content ps-lg-5 m-b30 d-flex d-sm-block flex-column">
                 <div className="section-head">
                   <h2 className="title">Mission & Vision</h2>
                   <p className="m-0 lh-base">

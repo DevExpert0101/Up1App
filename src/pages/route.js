@@ -12,7 +12,7 @@ import Incentive from './Incentives';
 import BlogList from './BlogList';
 import BlogGrid from './BlogGrid';
 import BlogDetails from './BlogDetails';
-import ContactUs from './ContactUs';
+import ContactUs from './Contract';
 import Features from './Features';
 import Community from './Community';
 

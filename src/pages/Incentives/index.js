@@ -106,6 +106,7 @@ function Incentives() {
                 <div className="d-flex col-4 flex-column">
                   <img
                     src={liquidity1}
+                    className="rounded-2"
                     changeClass="image-box-1"
                     alt="decentral"
                   />
@@ -114,6 +115,7 @@ function Incentives() {
                 <div className="d-flex col-4 flex-column">
                   <img
                     src={liquidity2}
+                    className="rounded-2"
                     changeClass="image-box-1"
                     alt="decentral"
                   />
@@ -122,6 +124,7 @@ function Incentives() {
                 <div className="d-flex col-4 flex-column">
                   <img
                     src={liquidity3}
+                    className="rounded-2"
                     changeClass="image-box-1"
                     alt="decentral"
                   />
@@ -137,12 +140,10 @@ function Incentives() {
         </section>
         <section className="content-inner about-sec bg-light">
           <div className="container">
-            <div className="row about-bx2 style-1 align-items-center">
+            <div className="row about-bx2 style-1 align-items-center" style={{rowGap: '20px'}}>
               <div className="col-lg-6">
-                <div className="dz-media">
-                  <div className="row align-items-end justify-content-center m-b70">
-                    <ImageBox image={prediction} changeClass="image-box-1" />
-                  </div>
+                <div className="dz-media d-flex justify-content-center">
+                  <img src={prediction} className='rounded-2' style={{width: '209px'}}/>
                 </div>
               </div>
               <div className="col-lg-6 about-content ps-lg-5 m-b100">
@@ -164,7 +165,7 @@ function Incentives() {
         <section className="content-inner about-sec bg-primary-light">
           <div className="container">
             <div className="row about-bx2 style-1 align-items-center">
-              <div className="col-lg-6 about-content ps-lg-5 m-b100">
+              <div className="col-lg-6 about-content ps-lg-5">
                 <div className="section-head">
                   <h2 className="title">Governance Participation</h2>
                   <p className="m-0 lh-base">
@@ -177,10 +178,8 @@ function Incentives() {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="dz-media">
-                  <div className="row align-items-end m-b70 justify-content-center">
-                    <ImageBox image={governance} changeClass="image-box-1" />
-                  </div>
+                <div className="d-flex justify-content-center">
+                    <img src={governance} className='rounded-2' changeClass="image-box-1" style={{width: '180px'}}/>
                 </div>
               </div>
             </div>

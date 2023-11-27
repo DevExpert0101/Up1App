@@ -15447,7 +15447,7 @@ ul a.rsswidget {
   padding: 25px 45px 40px;
   background-blend-mode: color;
   background: #362465;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   -webkit-transition: all 0.8s;
   -ms-transition: all 0.8s;
   transition: all 0.8s;

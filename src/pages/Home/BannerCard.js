@@ -168,8 +168,8 @@ function BannerCard() {
                 }}
                 className="mb-3"
               ></div>
-              <div>
-                <div className="d-flex gap-3 align-items-center justify-content-center">
+              
+                <div className="d-flex gap-3 align-items-center justify-content-around flex-column flex-sm-row">
                   <div
                     className="py-1 px-2 d-flex align-items-center gap-2"
                     style={{
@@ -198,15 +198,15 @@ function BannerCard() {
                   <i class="fa fa-share" aria-hidden="true" />
                   Share
                 </div>
-                </div>
+
                 
               </div>
               <div className="mt-4 mb-1" style={{ color: "black" }}>
                 {/* More Predefined Wagers */}
               </div>
-              <div className="row text-center" style={{ margin: "1px"}} >
+              <div className="row text-center justify-content-center" style={{ margin: "1px"}} >
                 {data.predefined.map((item, ind) => (
-                  <div key={ind} className="col-3 p-1 fs-8">
+                  <div key={ind} className="col-lg-3 col-4 p-1 fs-8">
                     <div
                       className="rounded-1"
                       style={{ backgroundColor: data.color, color: "#271456" , fontSize: "14px"}}

@@ -15,7 +15,7 @@ import amm3 from "./../../assets/images/protocol/amm3.png";
 import roadmap1 from "./../../assets/images/protocol/roadmap1.png";
 import roadmap2 from "./../../assets/images/protocol/roadmap2.png";
 import roadmap3 from "./../../assets/images/protocol/roadmap3.png";
-
+import decentralized from "./../../assets/images/protocol/decentralized.png";
 
 const ImageBox = ({ image, changeClass }) => {
   return (
@@ -124,6 +124,7 @@ function Protocol() {
                 <div className="d-flex col-4 flex-column">
                   <img
                     src={amm1}
+                    className="rounded-2"
                     changeClass="image-box-1"
                     alt="decentral"
                   />
@@ -132,6 +133,7 @@ function Protocol() {
                 <div className="d-flex col-4 flex-column">
                   <img
                     src={amm2}
+                    className="rounded-2"
                     changeClass="image-box-1"
                     alt="decentral"
                   />
@@ -140,6 +142,7 @@ function Protocol() {
                 <div className="d-flex col-4 flex-column">
                   <img
                     src={amm3}
+                    className="rounded-2"
                     changeClass="image-box-1"
                     alt="decentral"
                   />
@@ -156,15 +159,12 @@ function Protocol() {
         <section className="content-inner about-sec bg-light">
           <div className="container">
             <div className="row about-bx2 style-1 align-items-center">
-              <div className="col-lg-6">
-                <div className="dz-media">
-                  <div className="row align-items-end justify-content-center m-b70">
-                    <ImageBox
-                      image={security}
-                      changeClass="image-box-1"
-                    />
-                  </div>
-                </div>
+              <div className="col-lg-6 d-flex justify-content-center">
+                  <img
+                      src={security}
+                      style={{width: '100px'}}
+                      className="rounded-2"
+                      changeClass="image-box-1" />
               </div>
               <div className="col-lg-6 about-content ps-lg-5 m-b100">
                 <div className="section-head">
@@ -214,9 +214,11 @@ function Protocol() {
               </div>
               <div className="col-lg-6">
                 <div className="dz-media">
-                  <div className="row align-items-end m-b70 justify-content-center">
-                    <ImageBox
-                      image={security}
+                  <div className="d-flex align-items-end m-b70 justify-content-center">
+                    <img
+                      src={decentralized}
+                      className="rounded-2"
+                      style={{width: '200px'}}
                       changeClass="image-box-1"
                     />
                   </div>
@@ -224,7 +226,7 @@ function Protocol() {
               </div>
             </div>
           </div>
-          <img className="bg-shape4" src={Shape3} alt="" />
+          <img className="bg-shape4 rounded-2" src={Shape3} alt="" />
         </section>
         <section className="content-inner about-sec bg-light">
           <div className="container">
@@ -241,25 +243,28 @@ function Protocol() {
               </div>
               <div className="">
                 <div className="dz-media">
-                  <div className="row m-b70">
-                    <img
+                  <div className="m-b70 d-flex gap-2 justify-content-center">
+                  <img
                       src={roadmap1}
-                      className="col-4"
+                      className="col-4 rounded-2"
                       changeClass="image-box-1"
                       alt="decentral"
                     />
+                   
                     <img
                       src={roadmap2}
-                      className="col-4"
+                      className="col-4 rounded-2"
                       changeClass="image-box-2"
                       alt="decentral"
                     />
+                    
                     <img
                       src={roadmap3}
-                      className="col-4"
+                      className="col-4 rounded-2"
                       changeClass="image-box-1"
                       alt="decentral"
                     />
+                   
                   </div>
                 </div>
               </div>

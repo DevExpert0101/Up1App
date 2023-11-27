@@ -32,7 +32,7 @@ const trustBlog = [
     image: friend,
     title: "Accurate Community-Powered Insights ",
     description:
-      "UP1 isn't just about making predictions; it's about leveraging collective wisdom. Join a vibrant community of visionaries, where insightful predictions drive market outcomes.",
+      "UP1 isn't just about making predictions, it's about leveraging collective wisdom. Join a vibrant community of visionaries, where insightful predictions drive market outcomes.",
   },
   {
     image: participation,
@@ -145,20 +145,21 @@ function Home() {
               <div className="row">
                 {trustBlog.map((data, ind) => (
                   <div className="col-lg-6 m-b30" key={ind}>
-                    <div className="icon-bx-wraper style-2">
+                    <div className="icon-bx-wraper style-2" style={{position: 'relative'}}>
                       <div className="icon-media">
                         <img src={data.image} alt="" />
                       </div>
-                      <div className="icon-content">
+                      <div className="icon-content mb-5" >
                         <h4
                           className="title d-flex flex-column justify-content-center"
-                          style={{ height: "60px" }}
+                          // style={{ height: "60px" }}
                         >
                           {data.title}
                         </h4>
-                        <p style={{ height: "90px" }}>{data.description}</p>
+                        <p >{data.description}</p>
                         <Link
                           className="btn btn-primary btn-gradient btn-shadow"
+                          style={{position: 'absolute', bottom: '10px'}}
                           to={"/about-us"}
                         >
                           Read More
@@ -181,7 +182,7 @@ function Home() {
                 </div>
               </div>
               
-              <div className="row sp60 d-flex ">
+              <div className="row d-flex" style={{rowGap: '24px'}}>
                 <div className="col-xl-4 col-md-6">
                   <div className="icon-bx-wraper style-5 text-center d-flex flex-column justify-content-center">
                     <div className="icon-content">
