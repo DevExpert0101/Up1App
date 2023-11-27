@@ -107,6 +107,7 @@ function Header(){
                                             <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Blog</NavLink></li>
                                         </ul>
                                     </li>
+                                    <li><Link to={"/contact-us"} onClick={()=>setSidebarOpen(!sidebarOpen)}>Contact</Link></li>
                                     
                                                                        
                                 </ul>                               

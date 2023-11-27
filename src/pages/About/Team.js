@@ -1,29 +1,32 @@
 import React, { useState } from "react";
-import photo1 from "./../../assets/images/avatar/avatar1.jpg";
-import photo2 from "./../../assets/images/avatar/avatar2.jpg";
-import photo3 from "./../../assets/images/avatar/avatar3.jpg";
+import photo1 from "./../../assets/images/avatar/paul.jpg";
+import photo2 from "./../../assets/images/avatar/ciprian.jpg";
+import photo3 from "./../../assets/images/avatar/kelly.png";
 
 const portfolios = [
   {
-    name: "Jordan Kim",
-    role: "Chief Technology Officer (CTO)",
+    name: "Paul Marinescu",
+    role: "Chief Execuetion Officer (CEO)",
     photo: photo1,
+    linkedin: "https://www.linkedin.com/in/paul-marinescu/",
     description:
-      "With a decade of experience in blockchain technology and cybersecurity, Jordan Kim is the technical visionary behind UP1.",
+      "",
   },
   {
-    name: "Carlos Rivera",
-    role: "Community Outreach Director",
+    name: "Ciprian Filip",
+    role: "Advisor",
     photo: photo2,
+    linkedin: "https://www.linkedin.com/in/ciprianfilip/",
     description:
-      "Carlos Rivera, with his background in communications and public relations, is the driving force behind UP1's community engagement and education initiatives.",
+      "",
   },
   {
-    name: "Aisha Patel",
-    role: "Head of Business Development",
+    name: "Kelly Zhang",
+    role: "Full Stack Developer",
     photo: photo3,
+    linkedin: "",
     description:
-      "Aisha Patel brings a wealth of knowledge in fintech and strategic partnerships to UP1. ",
+      "",
   },
 ];
 
@@ -51,7 +54,8 @@ const Team = () => {
                   alt="price"
                 ></img>
                 <a
-                  href="https://www.google.com"
+                  href={data.linkedin}
+                  target="_blank"
                   style={{
                     position: "absolute",
                     left: "20px",
