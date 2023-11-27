@@ -13,14 +13,6 @@ const portfolios = [
       "",
   },
   {
-    name: "Ciprian Filip",
-    role: "Advisor",
-    photo: photo2,
-    linkedin: "https://www.linkedin.com/in/ciprianfilip/",
-    description:
-      "",
-  },
-  {
     name: "Kelly Zhang",
     role: "Full Stack Engineer",
     photo: photo3,
@@ -28,6 +20,14 @@ const portfolios = [
     description:
       "",
   },
+  {
+    name: "Ciprian Filip",
+    role: "Advisor",
+    photo: photo2,
+    linkedin: "https://www.linkedin.com/in/ciprianfilip/",
+    description:
+      "",
+  }
 ];
 
 const Team = () => {

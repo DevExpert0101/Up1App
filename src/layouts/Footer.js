@@ -77,7 +77,7 @@ function Footer(){
                                     <h4 className="widget-title">Contact</h4>
                                     <div className="clearfix">
                                         <h6 className="title">UP1 LLC</h6>
-                                        <p>1365 Ashland Ave, No.303, 60016 Des Plaines, Delaware, US<br/><br/> contact@up1.app </p>
+                                        <p>350 S. Northwest Hyw. Suite 300 Park Ridge, IL 60068, United States<br/><br/> contact@up1.app </p>
                                         <img src={flags} alt="" />
                                     </div>
                                 </div>
