@@ -36,7 +36,7 @@ function ContactUs(){
                                                 </li>
                                                 <li>
                                                     <i className="fas fa-map-marker-alt"></i>
-                                                    <span>1365 Ashland Ave, No.303, 60016 <br/> Des Plaines, Delaware, US</span>
+                                                    <span>poti sa pui adresa de pe 350 S. Northwest Hyw. Suite 300 Park Ridge, IL 60068</span>
                                                 </li>
                                             </ul>
                                         </div>

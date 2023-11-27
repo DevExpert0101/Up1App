@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import photo1 from "./../../assets/images/avatar/paul.jpg";
 import photo2 from "./../../assets/images/avatar/ciprian.png";
 import photo3 from "./../../assets/images/avatar/kelly.png";
+import photo4 from "./../../assets/images/avatar/leandro.jpg";
 
 const portfolios = [
   {
@@ -21,6 +22,13 @@ const portfolios = [
       "",
   },
   {
+    name: "Leandro Macarian",
+    role: "Financial advisor % Token Economics",
+    photo: photo4,
+    linkedin: "https://www.linkedin.com/in/leandro-marcarian-47867023/",
+    description: ""
+  },
+  {
     name: "Ciprian Filip",
     role: "Advisor",
     photo: photo2,
@@ -36,7 +44,7 @@ const Team = () => {
   return (
     <>
       {portfolios.map((data, index) => (
-        <div className="col-xl-4 col-lg-6 col-md-6 m-b30" key={index}>
+        <div className="col-xl-3 col-lg-6 col-md-6 m-b30" key={index}>
           <div
             className={`pricingtable-wrapper box-hover style-1 ${
               index === hovered ? "active" : ""
