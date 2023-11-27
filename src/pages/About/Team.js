@@ -6,7 +6,7 @@ import photo3 from "./../../assets/images/avatar/kelly.png";
 const portfolios = [
   {
     name: "Paul Marinescu",
-    role: "Chief Execuetion Officer (CEO)",
+    role: "CEO",
     photo: photo1,
     linkedin: "https://www.linkedin.com/in/paul-marinescu/",
     description:
