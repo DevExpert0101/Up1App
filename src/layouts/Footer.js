@@ -76,8 +76,8 @@ function Footer(){
                                 <div className="widget widget_locations">
                                     <h4 className="widget-title">Contact</h4>
                                     <div className="clearfix">
-                                        <h6 className="title">Washington</h6>
-                                        <p>1559 Alabama Ave SE, DC 20032, Washington, USA<br/><br/> contact@up1.app </p>
+                                        <h6 className="title">UP1 LLC</h6>
+                                        <p>1365 Ashland Ave, No.303, 60016 Des Plaines, Delaware, US<br/><br/> contact@up1.app </p>
                                         <img src={flags} alt="" />
                                     </div>
                                 </div>
