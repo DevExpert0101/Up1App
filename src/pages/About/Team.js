@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import photo1 from "./../../assets/images/avatar/paul.jpg";
-import photo2 from "./../../assets/images/avatar/ciprian.jpg";
+import photo2 from "./../../assets/images/avatar/ciprian.png";
 import photo3 from "./../../assets/images/avatar/kelly.png";
 
 const portfolios = [
