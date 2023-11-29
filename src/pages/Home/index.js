@@ -38,7 +38,7 @@ const trustBlog = [
     image: participation,
     title: "Incentivized Participation",
     description:
-      "UP1 token rewards accuracy, engagement, and liquidity provision, ensuring that every action you take within the platform contributes to your success.",
+      "UP1 token rewards accuracy, engagement and liquidity provision with reflection and ecosystem split, ensuring that every action you take within the platform contributes to your success.",
   },
   {
     image: outcome,
