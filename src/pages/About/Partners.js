@@ -12,20 +12,20 @@ const pricingBlog = [
     photo: photo1,
     description: "CEO & Founder",
   },
-  {
-    price: "21",
-    title: "Pro",
-    title2: "Everythings in Lite, Plus",
-    photo: photo2,
-    description: "CTO",
-  },
-  {
-    price: "32",
-    title: "Ultimate",
-    title2: "Everythings in Lite",
-    photo: photo3,
-    description: "Developer",
-  },
+  // {
+  //   price: "21",
+  //   title: "Pro",
+  //   title2: "Everythings in Lite, Plus",
+  //   photo: photo2,
+  //   description: "CTO",
+  // },
+  // {
+  //   price: "32",
+  //   title: "Ultimate",
+  //   title2: "Everythings in Lite",
+  //   photo: photo3,
+  //   description: "Developer",
+  // },
 ];
 
 const Partners = () => {

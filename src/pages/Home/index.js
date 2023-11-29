@@ -58,7 +58,7 @@ function Home() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 text-center">
-                <h1 className="">
+                <h1 style={{ marginRight: "80px"}}>
                   Elevating Predictive Insights to New Heights
                 </h1>
                 <p className="text text-primary ">
