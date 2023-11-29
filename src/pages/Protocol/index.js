@@ -6,7 +6,7 @@ import PageLayout from "../../layouts/PageLayout";
 import Shape1 from "../../assets/images/home-banner/shape1.png";
 import Shape3 from "./../../assets/images/home-banner/shape3.png";
 
-import Logo from "./../../assets/images/protocol/UP1Logo2.png";
+import Logo from "./../../assets/images/protocol/UP1Logo.png";
 import security from "./../../assets/images/protocol/security.png";
 import up1 from "./../../assets/images/protocol/up1.png";
 import amm1 from "./../../assets/images/protocol/amm1.png";

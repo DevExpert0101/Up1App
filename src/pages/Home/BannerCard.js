@@ -5,26 +5,28 @@ import superbowl from "./../../assets/images/card/superbowl.png";
 import vote from "./../../assets/images/card/vote.png";
 import tesla from "./../../assets/images/card/tesla.png";
 import LCDclock from "../../components/LCD_clock/LCDclodk";
+import up1 from "./../../assets/images/UP1Logo.png";
+
 
 const cardData = [
   {
-    image: superbowl,
-    title: "Super Bowl Winner Prediction",
+    image: up1,
+    title: "UP1 Token Price Prediction",
     subtitle: "Market Creator",
-    predict: "Predict the winner of the upcoming NFL Super Bowl",
+    predict: "Predict UP1 token price for January 1st 2025",
     pool: "353,533",
     total: 2854,
     participants: 2322,
     market: "Sports",
     predefined: [
-      "KCC",
-      "SF 49ERS",
-      "B.RAVENS",
-      "DALLAS C.",
-      "MIAMI D.",
-      "ETROIT L.",
-      "BUFFALO B.",
-      "SEATTLE S.",
+      "3.65",
+      "12.55",
+      "50.14",
+      "95.27",
+      "164.58",
+      "341.29",
+      "729.42",
+      "1356.89",
     ],
     color: "#b3a3ff",
   },

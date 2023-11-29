@@ -3,15 +3,23 @@ import photo1 from "./../../assets/images/avatar/paul.jpg";
 import photo2 from "./../../assets/images/avatar/ciprian.png";
 import photo3 from "./../../assets/images/avatar/kelly.png";
 import photo4 from "./../../assets/images/avatar/leandro.jpg";
+import photo5 from "./../../assets/images/avatar/carmen.jpg";
 
 const portfolios = [
   {
     name: "Paul Marinescu",
-    role: "CEO",
+    role: "Founder & CEO",
     photo: photo1,
     linkedin: "https://www.linkedin.com/in/paul-marinescu/",
     description:
       "",
+  },
+  {
+    name: "Leandro Macarian",
+    role: "CFO",
+    photo: photo4,
+    linkedin: "https://www.linkedin.com/in/leandro-marcarian-47867023/",
+    description: ""
   },
   {
     name: "Kelly Zhang",
@@ -22,10 +30,10 @@ const portfolios = [
       "",
   },
   {
-    name: "Leandro Macarian",
-    role: "Financial advisor % Token Economics",
-    photo: photo4,
-    linkedin: "https://www.linkedin.com/in/leandro-marcarian-47867023/",
+    name: "Carmen",
+    role: "Marketing Specialist",
+    photo: photo5,
+    linkedin: "https://www.linkedin.com/in/carmenpascalau/",
     description: ""
   },
   {

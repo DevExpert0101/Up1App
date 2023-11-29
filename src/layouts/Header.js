@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 
 // import Logo from './../assets/images/logo.png';
-import Logo from './../assets/images/UP1Logo2.png';
-import LogoWhite from './../assets/images/UP1Logo2.png';
+import Logo from './../assets/images/UP1Logo.png';
+import LogoWhite from './../assets/images/UP1Logo.png';
 
 function Header(){
 
