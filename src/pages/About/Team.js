@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import photo1 from "./../../assets/images/avatar/paul.jpg";
 import photo2 from "./../../assets/images/avatar/ciprian.png";
-import photo3 from "./../../assets/images/avatar/kelly.png";
+import photo3 from "./../../assets/images/avatar/kelly.jpeg";
 import photo4 from "./../../assets/images/avatar/leandro.jpg";
 import photo5 from "./../../assets/images/avatar/carmen.jpg";
 
@@ -25,7 +25,7 @@ const portfolios = [
     name: "Kelly Zhang",
     role: "Full Stack Engineer",
     photo: photo3,
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/kelly-zhang-7627542a2/",
     description:
       "",
   },
