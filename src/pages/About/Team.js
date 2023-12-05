@@ -24,7 +24,7 @@ const portfolios = [
   {
     name: "Kelly Zhang",
     role: "Full Stack Engineer",
-    photo: photo3,
+    photo: photo3, 
     linkedin: "https://www.linkedin.com/in/kelly-zhang-7627542a2/",
     description:
       "",
