@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import photo1 from "./../../assets/images/avatar/paul.jpg";
 import photo2 from "./../../assets/images/avatar/ciprian.png";
-import photo3 from "./../../assets/images/avatar/kelly.jpeg";
+import photo3 from "./../../assets/images/avatar/kelly.jpg";
 import photo4 from "./../../assets/images/avatar/leandro.jpg";
 import photo5 from "./../../assets/images/avatar/carmen.jpg";
 
