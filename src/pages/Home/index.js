@@ -57,8 +57,8 @@ function Home() {
         <div className="main-bnr style-1">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-12 text-center">
-                <h1 style={{ marginRight: "80px"}}>
+              <div className="col-12 col-sm-12 text-center">
+                <h1 style={{ paddingLeft: "80px", paddingRight: "80px"}}>
                   Elevating Predictive Insights to New Heights
                 </h1>
                 <p className="text text-primary ">

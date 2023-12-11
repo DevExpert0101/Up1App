@@ -4,11 +4,18 @@ import photo2 from "./../../assets/images/avatar/ciprian.png";
 import photo3 from "./../../assets/images/avatar/kelly.jpg";
 import photo4 from "./../../assets/images/avatar/leandro.jpg";
 import photo5 from "./../../assets/images/avatar/carmen.jpg";
-
+import chole from "./../../assets/images/avatar/chloe.jpg";
 const portfolios = [
   {
+    name: "Chloe Marinescu",
+    role: "CEO",
+    photo: chole,
+    linkedin: "",
+    description: ""
+  },
+  {
     name: "Paul Marinescu",
-    role: "Founder & CEO",
+    role: "Advisor",
     photo: photo1,
     linkedin: "https://www.linkedin.com/in/paul-marinescu/",
     description:
