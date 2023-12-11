@@ -36,13 +36,13 @@ const portfolios = [
   //   description:
   //     "",
   // },
-  {
-    name: "Carmen",
-    role: "Marketing Specialist",
-    photo: photo5,
-    linkedin: "https://www.linkedin.com/in/carmenpascalau/",
-    description: ""
-  },
+  // {
+  //   name: "Carmen",
+  //   role: "Marketing Specialist",
+  //   photo: photo5,
+  //   linkedin: "https://www.linkedin.com/in/carmenpascalau/",
+  //   description: ""
+  // },
   // {
   //   name: "Ciprian Filip",
   //   role: "Advisor",
