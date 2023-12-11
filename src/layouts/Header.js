@@ -53,7 +53,7 @@ function Header(){
                                         <img src={Logo} alt=""  style={{width: '50px'}}/>
                                     </NavLink>
                                 </div>                            
-                                <ul className="nav navbar-nav navbar">
+                                <ul className="nav navbar-nav navbar" style={{gap: "80px"}}>
                                     <li><NavLink to={"/"} onClick={()=>setSidebarOpen(!sidebarOpen)}>Home</NavLink></li>
                                     <li><Link to={"/about-us"} onClick={()=>setSidebarOpen(!sidebarOpen)}>About</Link></li>
 
