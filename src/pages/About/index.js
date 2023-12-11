@@ -98,7 +98,7 @@ function AboutUs() {
               <h2 className="title">Partnerships</h2>
             </div>
             <div className="row justify-content-center">
-              <Partners />
+              {/* <Partners /> */}
             </div>
           </div>
         </section>

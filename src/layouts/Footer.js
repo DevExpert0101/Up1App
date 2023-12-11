@@ -36,11 +36,11 @@ function Footer(){
                                     <h4 className="widget-title">Protocol</h4>
                                     <ul>
                                         <li><Link to={"/about-us"}>About UP1</Link></li>
-                                        <li><Link to={"/pricing"}>Prediction Markets</Link></li>
+                                        {/* <li><Link to={"/pricing"}>Prediction Markets</Link></li>
                                         <li><Link to={"/blog-list"}>Community Forum</Link></li>
                                         <li><Link to={"/blog-grid"}>User Dashboard</Link></li>
                                         <li><Link to={"/contact-us"}>Whitepaper</Link></li>
-                                        <li><Link to={"/contact-us"}>FAQ</Link></li>
+                                        <li><Link to={"/contact-us"}>FAQ</Link></li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -63,12 +63,13 @@ function Footer(){
                                         </div>
                                     </div> */}
                                     <ul>
-                                        <li><Link to={"/about-us"}>UP1 Token</Link></li>
+                                        {/* <li><Link to={"/about-us"}>UP1 Token</Link></li>
                                         <li><Link to={"/pricing"}>Terms of Service</Link></li>
                                         <li><Link to={"/blog-list"}>Privacy Policy</Link></li>
                                         <li><Link to={"/blog-grid"}>Disclaimer</Link></li>
                                         <li><Link to={"/contact-us"}>Cookie Policy</Link></li>
-                                        <li><Link to={"/contact-us"}>Security Policy</Link></li>
+                                        <li><Link to={"/contact-us"}>Security Policy</Link></li> */}
+                                        <p> Comming Soon</p>
                                     </ul>
                                 </div>
                             </div>
@@ -88,7 +89,7 @@ function Footer(){
                 </div>
                 <div className="footer-bottom text-center">
                     <div className="container">
-                        <span className="copyright-text">Copyright © 2023 <a href="https://dexignzone.com/" target="_blank">UP1 Protocol</a>. All rights reserved.</span>
+                        <span className="copyright-text">Copyright © 2023 <a href="https://dexignzone.com/" target="_blank">UP1.app</a>. All rights reserved.</span>
                     </div>
                 </div>
             </footer>

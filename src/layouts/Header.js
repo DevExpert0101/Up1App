@@ -41,8 +41,9 @@ function Header(){
                             </button>                            
                             <div className="extra-nav">
                                 <div className="extra-cell">
-                                    <a className="btn btn-outline-primary text-white" target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/login">Login</a>
-                                    <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/page-register">Register</a>
+                                    <a className="btn btn-outline-primary text-white"  rel="noreferrer" href="#" onClick={() => {alert('Comming Soon.')}}>Whitepaper</a>
+                                    <a className="btn btn-primary btn-gradient btn-shadow"  rel="noreferrer" href="#" onClick={() => {alert('Comming Soon.')}}>APP</a>
+                                    
                                 </div>
                             </div>                           
                                 
@@ -56,7 +57,7 @@ function Header(){
                                     <li><NavLink to={"/"} onClick={()=>setSidebarOpen(!sidebarOpen)}>Home</NavLink></li>
                                     <li><Link to={"/about-us"} onClick={()=>setSidebarOpen(!sidebarOpen)}>About</Link></li>
 
-                                    <li className={`sub-menu-down ${showMenuFeature ? "open" : ""}`} id="menushow"
+                                    {/* <li className={`sub-menu-down ${showMenuFeature ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenuFeature(!showMenuFeature)}
                                       
                                     ><Link to={"/features"}>Features</Link>
@@ -94,7 +95,7 @@ function Header(){
                                             <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Prediction and Accuracy Bonuses</NavLink></li>
                                             <li><NavLink to={"#"}onClick={()=>setSidebarOpen(!sidebarOpen)}>Governance Prediction</NavLink></li>
                                         </ul>
-                                    </li> 
+                                    </li>  */}
 
                                     <li className={`sub-menu-down ${showMenuCommunity ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenuCommunity(!showMenuCommunity)}                                      
@@ -116,15 +117,18 @@ function Header(){
                                     
                                     <div className="dz-social-icon">
                                         <ul className="nav navbar-nav navbar mb-5">
-                                            <li><a target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/login">Login</a></li> 
-                                            <li><a target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/page-register">Register</a></li>
+                                            {/* <li><a target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/login">Login</a></li> 
+                                            <li><a target="_blank" rel="noreferrer" href="https://cryptozone.dexignzone.com/react/demo/page-register">Register</a></li> */}
+
+                                            <li><button onClick={() => {alert('Comming Soon...')}}>Login</button></li> 
+                                            {/* <li><a target="_blank" rel="noreferrer" href="#" onClick={() => {alert('Comming Soon...')}}>Register</a></li> */}
                                         </ul>
-                                        <ul>
+                                        {/* <ul>
                                             <li><a target="_blank" className="fab fa-facebook-f" rel="noreferrer" href="https://www.facebook.com/"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-twitter" rel="noreferrer" href="https://twitter.com/"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-linkedin-in" rel="noreferrer" href="https://www.linkedin.com/"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-instagram" rel="noreferrer" href="https://www.instagram.com/"></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>	
                                 </div>
                                 

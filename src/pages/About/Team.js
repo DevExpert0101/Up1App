@@ -21,14 +21,14 @@ const portfolios = [
     linkedin: "https://www.linkedin.com/in/leandro-marcarian-47867023/",
     description: ""
   },
-  {
-    name: "Kelly Zhang",
-    role: "Full Stack Engineer",
-    photo: photo3, 
-    linkedin: "https://www.linkedin.com/in/kelly-zhang-7627542a2/",
-    description:
-      "",
-  },
+  // {
+  //   name: "Kelly Zhang",
+  //   role: "Full Stack Engineer",
+  //   photo: photo3, 
+  //   linkedin: "https://www.linkedin.com/in/kelly-zhang-7627542a2/",
+  //   description:
+  //     "",
+  // },
   {
     name: "Carmen",
     role: "Marketing Specialist",
@@ -36,14 +36,14 @@ const portfolios = [
     linkedin: "https://www.linkedin.com/in/carmenpascalau/",
     description: ""
   },
-  {
-    name: "Ciprian Filip",
-    role: "Advisor",
-    photo: photo2,
-    linkedin: "https://www.linkedin.com/in/ciprianfilip/",
-    description:
-      "",
-  }
+  // {
+  //   name: "Ciprian Filip",
+  //   role: "Advisor",
+  //   photo: photo2,
+  //   linkedin: "https://www.linkedin.com/in/ciprianfilip/",
+  //   description:
+  //     "",
+  // }
 ];
 
 const Team = () => {
